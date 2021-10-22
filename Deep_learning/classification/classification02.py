@@ -33,14 +33,16 @@ class FoodDataset(paddle.io.Dataset):
         读取图片，对图片进行归一化处理，返回图片和 标签
         """
         # 将图片路径给image_file , 分类名字个 lable
-        print(index)
+        # print(index)
         image_file, lable = self.data[index]  #获取数据
         print(image_file)
         img = Image.open(image_file) # 读取图片
         img = img.resize((100, 100), Image.ANTIALIAS) # 图片大小样式归一化统一调整像素为100*100
         img = np.array(img).astype('float32')  # 转换成数组类型浮点型32位
+        # a = np.array([[3, 3, 3], [3, 4, 5]])
+        # print(a.shape)  #输出为(2,3) 是一个两行三列的数组
+        #print(img.shape)
         img = img.transpose((2, 0, 1)) # 读出来的图像是rgb， rgb， rgb 转置为 rrr...,ggg...,bbb...
-        print
         img = img/255.0 # 数据缩放到0-1的范围
         # 返回处理后的图片信息img 和分类类别 lable
         return img, np.array(lable, dtype='int64')
@@ -54,20 +56,17 @@ class FoodDataset(paddle.io.Dataset):
 
 
 
-if __name__ == '__main__':
-    # 训练的数据提供器
-    train_dataset = FoodDataset(mode='./classification/training')
-    # 测试的数据提供器
-    eval_dataset = FoodDataset(mode='./classification/validation')
 
-    # 查看训练和测试数据的大小
-    print('train大小：', train_dataset.__len__())
-    print('eval大小：', eval_dataset.__len__())
-
-    # 查看图片数据、大小及标签
-    for data, label in train_dataset:
-    #     print(data)
-    #     print(np.array(data).shape)  #输出矩阵的形状
-         print(label)
-         break
-    
+#     # 训练的数据提供器
+# train_dataset = FoodDataset(mode='./classification/training')
+#
+# eval_dataset = FoodDataset(mode='./classification/validation')
+#     # 查看训练和测试数据的大小
+# print('train大小：', train_dataset.__len__())
+# print('eval大小：', eval_dataset.__len__())
+# #     # 查看图片数据、大小及标签
+# for data, label in train_dataset:
+#     print(data)
+#     print(np.array(data).shape)  #输出矩阵的形状 是一个（3，100，100）的三维数组
+#     print(label)
+#     break
