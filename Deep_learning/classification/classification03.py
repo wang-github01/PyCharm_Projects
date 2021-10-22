@@ -60,8 +60,8 @@ class MyCNN(paddle.nn.Layer):
 #     print(paddle.summary(network, (1, 3, 100, 100)))
 
 network = MyCNN()
-# print(paddle.summary(network, (1, 3, 100, 100)))
-
+y = paddle.summary(network, (1, 3, 100, 100))
+print(y)
 model = paddle.Model(network) # 模型封装
 
 # 配置优化器、损失函数、评估指标
