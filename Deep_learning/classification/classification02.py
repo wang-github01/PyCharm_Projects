@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import paddle
 import numpy as np
 from PIL import Image
@@ -36,7 +37,9 @@ class FoodDataset(paddle.io.Dataset):
         # print(index)
         image_file, lable = self.data[index]  #获取数据
         print(image_file)
-        img = Image.open(image_file) # 读取图片
+        img = Image.open(image_file) # 读取图片、
+        plt.imshow(img)
+        plt.show()
         img = img.resize((100, 100), Image.ANTIALIAS) # 图片大小样式归一化统一调整像素为100*100
         img = np.array(img).astype('float32')  # 转换成数组类型浮点型32位
         # a = np.array([[3, 3, 3], [3, 4, 5]])
@@ -57,16 +60,16 @@ class FoodDataset(paddle.io.Dataset):
 
 
 
-#     # 训练的数据提供器
-# train_dataset = FoodDataset(mode='./classification/training')
-#
-# eval_dataset = FoodDataset(mode='./classification/validation')
-#     # 查看训练和测试数据的大小
+# #     # 训练的数据提供器
+# train_dataset = FoodDataset(mode='training')
+# #
+# eval_dataset = FoodDataset(mode='validation')
+#      # 查看训练和测试数据的大小
 # print('train大小：', train_dataset.__len__())
 # print('eval大小：', eval_dataset.__len__())
 # #     # 查看图片数据、大小及标签
 # for data, label in train_dataset:
-#     print(data)
-#     print(np.array(data).shape)  #输出矩阵的形状 是一个（3，100，100）的三维数组
-#     print(label)
-#     break
+#      print(data)
+#      print(np.array(data).shape)  #输出矩阵的形状 是一个（3，100，100）的三维数组
+#      print(label)
+#      break
