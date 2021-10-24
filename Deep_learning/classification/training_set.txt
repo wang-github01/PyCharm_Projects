@@ -7436,7 +7436,6 @@ food-11\training\7_3.jpg	7
 food-11\training\7_30.jpg	7
 food-11\training\7_31.jpg	7
 food-11\training\7_32.jpg	7
-food-11\training\7_33.jpg	7
 food-11\training\7_34.jpg	7
 food-11\training\7_35.jpg	7
 food-11\training\7_36.jpg	7
@@ -7861,7 +7860,6 @@ food-11\training\8_411.jpg	8
 food-11\training\8_412.jpg	8
 food-11\training\8_413.jpg	8
 food-11\training\8_414.jpg	8
-food-11\training\8_415.jpg	8
 food-11\training\8_416.jpg	8
 food-11\training\8_417.jpg	8
 food-11\training\8_418.jpg	8

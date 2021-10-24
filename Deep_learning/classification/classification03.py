@@ -84,3 +84,4 @@ model.fit(train_dataset,                    # 训练数据集
           batch_size=64,                    # 训练使用的批次大小
           verbose=1,                        # 日志形式展示
           callbacks=[visualdl])             # 设置可视化
+model.save('finetuning/mnist')   # 保存模型
