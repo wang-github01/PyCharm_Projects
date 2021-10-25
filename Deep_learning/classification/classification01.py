@@ -1,9 +1,5 @@
-import paddle
 import os
-import paddle.vision.transforms as T
-import numpy as np
-from PIL import Image
-import paddle.nn.functional as F
+
 
 # 读取图片名称并生成文档
 
