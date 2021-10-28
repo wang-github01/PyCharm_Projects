@@ -5,7 +5,7 @@ import model
 # 训练模型
 
 # 调用模型
-network = model.MyCNN()
+network = model.LeNet()
 # paddle.summary 打印模型
 y = paddle.summary(network, (1, 3, 100, 100))
 print(y)

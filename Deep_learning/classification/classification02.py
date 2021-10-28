@@ -58,7 +58,7 @@ class FoodDataset(paddle.io.Dataset):
         # a = np.array([[3, 3, 3], [3, 4, 5]])
         # print(a.shape)  #输出为(2,3) 是一个两行三列的数组
         #print(img.shape)
-        img = img.transpose((2, 0, 1)) # 读出来的图像是rgb， rgb， rgb 转置为 rrr...,ggg...,bbb...
+        img = img.transpose((2, 0, 1)) # 读出来的图像是[H, W, C] 转置为 [C, H, W]
         img = img/255.0 # 数据缩放到0-1的范围
         # 返回处理后的图片信息img 和分类类别 lable
         return img, np.array(lable, dtype='int64')

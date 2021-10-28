@@ -2,53 +2,50 @@ import paddle
 import paddle.nn.functional as F
 
 
-# 模型定义
+# 使用 LeNet神经网络
 # 继承paddle.nn.Layer类，用于搭建模型
-class MyCNN(paddle.nn.Layer):
-    def __init__(self):
-        super(MyCNN, self).__init__()
+class LeNet(paddle.nn.Layer):
+    def __init__(self, num_classes = 1):
+        super(LeNet, self).__init__()
+
+        # 创建卷积和池化层块， 每个卷积层使用Sigmoid激活函数， 后面跟着一个2*2的池化
         # in_channels 输入数据的通道数， out_channels 输出数据的通道数， kernel_size 卷积和大小， padding 零填充
-        self.conv0 = paddle.nn.Conv2D(in_channels=3, out_channels=20, kernel_size=5, padding=0)# 二维卷积层
+        self.conv1 = paddle.nn.Conv2D(in_channels=3, out_channels=6, kernel_size=5)# 二维卷积层
         # kernel_size max pooling的窗口大小， stride 移动步长
-        self.pool0 = paddle.nn.MaxPool2D(kernel_size=2, stride=2)  # 最大池化
-        # num_features 指明通道数量
-        self._batch_norm_0 = paddle.nn.BatchNorm2D(num_features=20) # 归一层
+        self.pool1 = paddle.nn.MaxPool2D(kernel_size=2, stride=2)  # 最大池化
 
-        self.conv1 = paddle.nn.Conv2D(in_channels=20, out_channels=50, kernel_size=5, padding=0)
-        self.pool1 = paddle.nn.MaxPool2D(kernel_size=2, stride=2)
-        self._batch_norm_1 = paddle.nn.BatchNorm2D(num_features=50)
-
-        self.conv2 = paddle.nn.Conv2D(in_channels=50, out_channels=50, kernel_size=5, padding=0)
+        self.conv2 = paddle.nn.Conv2D(in_channels=6, out_channels=16, kernel_size=5)
         self.pool2 = paddle.nn.MaxPool2D(kernel_size=2, stride=2)
-        #in_features 每个输入 x 的样本特征的大小 ，out_features  每个输出 y 的样本特征大小
-        self.fc1 = paddle.nn.Linear(in_features=4050, out_features=218) #  线形层
-        self.fc2 = paddle.nn.Linear(in_features=218, out_features=100)
-        self.fc3 = paddle.nn.Linear(in_features=100, out_features=11)
 
-    def forward(self, input):
-        # 将输入的数据变成该样子[1, 3, 100, 100]
-        input = paddle.reshape(input,shape=[-1, 3, 100, 100]) #转换维度
+        # 创建第 3 个卷积层
+        self.conv3 = paddle.nn.Conv2D(in_channels=16, out_channels=120, kernel_size=4)
+
+        # in_features 每个输入 x 的样本特征的大小 ，out_features  每个输出 y 的样本特征大小
+        # 创建全连接层， 第一个全连接层的输出神经元为64
+        self.fc1 = paddle.nn.Linear(in_features=300000, out_features=64)
+        # 第二个全连接层输出神经元个数为分类标签的类别说
+        self.fc2 = paddle.nn.Linear(in_features=64, out_features=num_classes)
+
+
+# 网络前向计算
+    def forward(self, x, label=None):
         # print(input.shape)
-        x = self.conv0(input) # 数据输入卷积层
-        x = F.relu(x)  #激活层
-        x = self.pool0(x)  #池化层
-        x = self._batch_norm_0(x) #归一层
-
-        x = self.conv1(x)
-        x = F.relu(x)
-        x = self.pool1(x)
-        x = self._batch_norm_1(x)
-        # print(x.shape)
+        # 将输入数据的样子该变成[1,3,100,100]
+        x = paddle.reshape(input, shape=[1, 3, 224, 224])
+        x = self.conv1(input) # 数据输入卷积层
+        x = F.sigmoid(x)  #激活层
+        x = self.pool1(x)  #池化层
+        x = F.sigmoid(x)
 
         x = self.conv2(x)
-        x = F.relu(x)
         x = self.pool2(x)
+        # print(x.shape)
+
+        x = self.conv3(x)
+        x = F.sigmoid(x)
         x = paddle.reshape(x, [x.shape[0], -1])
 
         x = self.fc1(x)  # 线性层
-        x = F.relu(x)
+        x = F.sigmoid(x)
         x = self.fc2(x)
-        x = F.relu(x)
-        x = self.fc3(x)
-        y =F.softmax(x) # 分类器  一行一行的做皈依化
-        return y
+        return x

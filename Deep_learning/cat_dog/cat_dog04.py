@@ -27,7 +27,7 @@ class FoodDataset(paddle.io.Dataset):
         img = Image.open(image_file) # 读取图片、
         #plt.imshow(img)
         #plt.show()
-        img = img.resize((100, 100), Image.ANTIALIAS) # 图片大小样式归一化统一调整像素为100*100
+        img = img.resize((224, 224), Image.ANTIALIAS) # 图片大小样式归一化统一调整像素为100*100
         img = np.array(img).astype('float32')  # 转换成数组类型浮点型32位
         # a = np.array([[3, 3, 3], [3, 4, 5]])
         # print(a.shape)  #输出为(2,3) 是一个两行三列的数组

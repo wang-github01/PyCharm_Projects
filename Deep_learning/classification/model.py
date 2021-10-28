@@ -2,7 +2,7 @@ import paddle
 import paddle.nn.functional as F
 
 
-# 模型定义
+# 使用 MyCNN 神经网络
 # 继承paddle.nn.Layer类，用于搭建模型
 class MyCNN(paddle.nn.Layer):
     def __init__(self):
@@ -27,7 +27,7 @@ class MyCNN(paddle.nn.Layer):
 
     def forward(self, input):
         # 将输入的数据变成该样子[1, 3, 100, 100]
-        input = paddle.reshape(input,shape=[-1, 3, 100, 100]) #转换维度
+        input = paddle.reshape(input,shape=[1, 3, 100, 100]) #转换维度
         # print(input.shape)
         x = self.conv0(input) # 数据输入卷积层
         x = F.relu(x)  #激活层
