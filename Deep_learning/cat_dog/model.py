@@ -28,11 +28,11 @@ class LeNet(paddle.nn.Layer):
 
 
 # 网络前向计算
-    def forward(self, x, label=None):
+    def forward(self, x):
         # print(input.shape)
         # 将输入数据的样子该变成[1,3,100,100]
-        x = paddle.reshape(input, shape=[1, 3, 224, 224])
-        x = self.conv1(input) # 数据输入卷积层
+        # x = paddle.reshape(input, shape=[1, 3, 224, 224])
+        x = self.conv1(x) # 数据输入卷积层
         x = F.sigmoid(x)  #激活层
         x = self.pool1(x)  #池化层
         x = F.sigmoid(x)
