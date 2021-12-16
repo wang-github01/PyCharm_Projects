@@ -1,0 +1,207 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+epoch: 0, batch_id: 0, loss is：1.0409
+epoch: 0, batch_id: 100, loss is：0.6895
+epoch: 0, batch_id: 200, loss is：0.7016
+epoch: 0, batch_id: 300, loss is：0.6966
+epoch: 0, batch_id: 400, loss is：0.6989
+epoch: 0, batch_id: 500, loss is：0.6763
+epoch: 0, batch_id: 600, loss is：0.6796
+epoch: 0, batch_id: 700, loss is：0.6702
+epoch: 0, batch_id: 800, loss is：0.7055
+epoch: 0, batch_id: 900, loss is：0.6770
+epoch: 0, batch_id: 1000, loss is：0.6755
+epoch: 0, batch_id: 1100, loss is：0.6699
+epoch: 0, batch_id: 1200, loss is：0.6855
+epoch: 0, batch_id: 1300, loss is：0.7000
+epoch: 0, batch_id: 1400, loss is：0.6571
+epoch: 0, batch_id: 1500, loss is：0.8335
+epoch: 0, batch_id: 1600, loss is：0.5849
+epoch: 0, batch_id: 1700, loss is：0.6541
+[validation] accuracy 0.5000, loss 0.6873
+1
+epoch: 1, batch_id: 0, loss is：0.6856
+epoch: 1, batch_id: 100, loss is：0.6749
+epoch: 1, batch_id: 200, loss is：0.6822
+epoch: 1, batch_id: 300, loss is：0.7005
+epoch: 1, batch_id: 400, loss is：0.7171
+epoch: 1, batch_id: 500, loss is：0.5052
+epoch: 1, batch_id: 600, loss is：0.6752
+epoch: 1, batch_id: 700, loss is：0.7076
+epoch: 1, batch_id: 800, loss is：0.7237
+epoch: 1, batch_id: 900, loss is：0.6066
+epoch: 1, batch_id: 1000, loss is：0.7622
+epoch: 1, batch_id: 1100, loss is：0.6304
+epoch: 1, batch_id: 1200, loss is：0.6725
+epoch: 1, batch_id: 1300, loss is：0.7022
+epoch: 1, batch_id: 1400, loss is：0.5523
+epoch: 1, batch_id: 1500, loss is：0.7790
+epoch: 1, batch_id: 1600, loss is：0.5102
+epoch: 1, batch_id: 1700, loss is：0.6956
+[validation] accuracy 0.5000, loss 0.6560
+2
+epoch: 2, batch_id: 0, loss is：0.6196
+epoch: 2, batch_id: 100, loss is：0.6806
+epoch: 2, batch_id: 200, loss is：0.5549
+epoch: 2, batch_id: 300, loss is：0.6588
+epoch: 2, batch_id: 400, loss is：0.7096
+epoch: 2, batch_id: 500, loss is：0.4532
+epoch: 2, batch_id: 600, loss is：0.6706
+epoch: 2, batch_id: 700, loss is：0.6686
+epoch: 2, batch_id: 800, loss is：0.6879
+epoch: 2, batch_id: 900, loss is：0.5398
+epoch: 2, batch_id: 1000, loss is：0.7355
+epoch: 2, batch_id: 1100, loss is：0.6226
+epoch: 2, batch_id: 1200, loss is：0.6682
+epoch: 2, batch_id: 1300, loss is：0.6953
+epoch: 2, batch_id: 1400, loss is：0.4632
+epoch: 2, batch_id: 1500, loss is：0.7773
+epoch: 2, batch_id: 1600, loss is：0.4530
+epoch: 2, batch_id: 1700, loss is：0.6906
+[validation] accuracy 0.5000, loss 0.6414
+3
+epoch: 3, batch_id: 0, loss is：0.5937
+epoch: 3, batch_id: 100, loss is：0.6573
+epoch: 3, batch_id: 200, loss is：0.5357
+epoch: 3, batch_id: 300, loss is：0.6325
+epoch: 3, batch_id: 400, loss is：0.7509
+epoch: 3, batch_id: 500, loss is：0.4338
+epoch: 3, batch_id: 600, loss is：0.6888
+epoch: 3, batch_id: 700, loss is：0.6155
+epoch: 3, batch_id: 800, loss is：0.6979
+epoch: 3, batch_id: 900, loss is：0.5115
+epoch: 3, batch_id: 1000, loss is：0.7295
+epoch: 3, batch_id: 1100, loss is：0.5986
+epoch: 3, batch_id: 1200, loss is：0.6556
+epoch: 3, batch_id: 1300, loss is：0.6428
+epoch: 3, batch_id: 1400, loss is：0.4140
+epoch: 3, batch_id: 1500, loss is：0.8169
+epoch: 3, batch_id: 1600, loss is：0.4263
+epoch: 3, batch_id: 1700, loss is：0.6392
+[validation] accuracy 0.5007, loss 0.6214
+4
+epoch: 4, batch_id: 0, loss is：0.5432
+epoch: 4, batch_id: 100, loss is：0.5742
+epoch: 4, batch_id: 200, loss is：0.5508
+epoch: 4, batch_id: 300, loss is：0.5849
+epoch: 4, batch_id: 400, loss is：0.7459
+epoch: 4, batch_id: 500, loss is：0.4739
+epoch: 4, batch_id: 600, loss is：0.6361
+epoch: 4, batch_id: 700, loss is：0.5441
+epoch: 4, batch_id: 800, loss is：0.7434
+epoch: 4, batch_id: 900, loss is：0.4995
+epoch: 4, batch_id: 1000, loss is：0.6273
+epoch: 4, batch_id: 1100, loss is：0.5568
+epoch: 4, batch_id: 1200, loss is：0.6140
+epoch: 4, batch_id: 1300, loss is：0.5813
+epoch: 4, batch_id: 1400, loss is：0.3518
+epoch: 4, batch_id: 1500, loss is：0.8055
+epoch: 4, batch_id: 1600, loss is：0.3922
+epoch: 4, batch_id: 1700, loss is：0.5833
+[validation] accuracy 0.5227, loss 0.6096
+5
+epoch: 5, batch_id: 0, loss is：0.5202
+epoch: 5, batch_id: 100, loss is：0.5469
+epoch: 5, batch_id: 200, loss is：0.5523
+epoch: 5, batch_id: 300, loss is：0.5467
+epoch: 5, batch_id: 400, loss is：0.7335
+epoch: 5, batch_id: 500, loss is：0.5060
+epoch: 5, batch_id: 600, loss is：0.6242
+epoch: 5, batch_id: 700, loss is：0.5171
+epoch: 5, batch_id: 800, loss is：0.7506
+epoch: 5, batch_id: 900, loss is：0.4924
+epoch: 5, batch_id: 1000, loss is：0.5915
+epoch: 5, batch_id: 1100, loss is：0.5283
+epoch: 5, batch_id: 1200, loss is：0.5653
+epoch: 5, batch_id: 1300, loss is：0.5559
+epoch: 5, batch_id: 1400, loss is：0.3119
+epoch: 5, batch_id: 1500, loss is：0.7670
+epoch: 5, batch_id: 1600, loss is：0.3485
+epoch: 5, batch_id: 1700, loss is：0.5644
+[validation] accuracy 0.5375, loss 0.5987
+6
+epoch: 6, batch_id: 0, loss is：0.5083
+epoch: 6, batch_id: 100, loss is：0.5358
+epoch: 6, batch_id: 200, loss is：0.5535
+epoch: 6, batch_id: 300, loss is：0.5002
+epoch: 6, batch_id: 400, loss is：0.6819
+epoch: 6, batch_id: 500, loss is：0.5105
+epoch: 6, batch_id: 600, loss is：0.5989
+epoch: 6, batch_id: 700, loss is：0.4855
+epoch: 6, batch_id: 800, loss is：0.7596
+epoch: 6, batch_id: 900, loss is：0.4877
+epoch: 6, batch_id: 1000, loss is：0.5697
+epoch: 6, batch_id: 1100, loss is：0.5009
+epoch: 6, batch_id: 1200, loss is：0.5190
+epoch: 6, batch_id: 1300, loss is：0.5273
+epoch: 6, batch_id: 1400, loss is：0.2844
+epoch: 6, batch_id: 1500, loss is：0.7345
+epoch: 6, batch_id: 1600, loss is：0.3043
+epoch: 6, batch_id: 1700, loss is：0.5569
+[validation] accuracy 0.5497, loss 0.5905
+7
+epoch: 7, batch_id: 0, loss is：0.4958
+epoch: 7, batch_id: 100, loss is：0.5332
+epoch: 7, batch_id: 200, loss is：0.5625
+epoch: 7, batch_id: 300, loss is：0.4485
+epoch: 7, batch_id: 400, loss is：0.6240
+epoch: 7, batch_id: 500, loss is：0.5162
+epoch: 7, batch_id: 600, loss is：0.5726
+epoch: 7, batch_id: 700, loss is：0.4562
+epoch: 7, batch_id: 800, loss is：0.7745
+epoch: 7, batch_id: 900, loss is：0.4826
+epoch: 7, batch_id: 1000, loss is：0.5402
+epoch: 7, batch_id: 1100, loss is：0.4796
+epoch: 7, batch_id: 1200, loss is：0.4771
+epoch: 7, batch_id: 1300, loss is：0.4997
+epoch: 7, batch_id: 1400, loss is：0.2596
+epoch: 7, batch_id: 1500, loss is：0.7139
+epoch: 7, batch_id: 1600, loss is：0.2683
+epoch: 7, batch_id: 1700, loss is：0.5557
+[validation] accuracy 0.5656, loss 0.5811
+8
+epoch: 8, batch_id: 0, loss is：0.4729
+epoch: 8, batch_id: 100, loss is：0.5361
+epoch: 8, batch_id: 200, loss is：0.5712
+epoch: 8, batch_id: 300, loss is：0.4023
+epoch: 8, batch_id: 400, loss is：0.5760
+epoch: 8, batch_id: 500, loss is：0.5322
+epoch: 8, batch_id: 600, loss is：0.5521
+epoch: 8, batch_id: 700, loss is：0.4279
+epoch: 8, batch_id: 800, loss is：0.7931
+epoch: 8, batch_id: 900, loss is：0.4731
+epoch: 8, batch_id: 1000, loss is：0.5140
+epoch: 8, batch_id: 1100, loss is：0.4578
+epoch: 8, batch_id: 1200, loss is：0.4417
+epoch: 8, batch_id: 1300, loss is：0.4767
+epoch: 8, batch_id: 1400, loss is：0.2327
+epoch: 8, batch_id: 1500, loss is：0.6942
+epoch: 8, batch_id: 1600, loss is：0.2402
+epoch: 8, batch_id: 1700, loss is：0.5556
+[validation] accuracy 0.5868, loss 0.5667
+9
+epoch: 9, batch_id: 0, loss is：0.4429
+epoch: 9, batch_id: 100, loss is：0.5321
+epoch: 9, batch_id: 200, loss is：0.5758
+epoch: 9, batch_id: 300, loss is：0.3673
+epoch: 9, batch_id: 400, loss is：0.5351
+epoch: 9, batch_id: 500, loss is：0.5531
+epoch: 9, batch_id: 600, loss is：0.5456
+epoch: 9, batch_id: 700, loss is：0.4074
+epoch: 9, batch_id: 800, loss is：0.8128
+epoch: 9, batch_id: 900, loss is：0.4625
+epoch: 9, batch_id: 1000, loss is：0.5048
+epoch: 9, batch_id: 1100, loss is：0.4274
+epoch: 9, batch_id: 1200, loss is：0.4109
+epoch: 9, batch_id: 1300, loss is：0.4558
+epoch: 9, batch_id: 1400, loss is：0.2040
+epoch: 9, batch_id: 1500, loss is：0.6741
+epoch: 9, batch_id: 1600, loss is：0.2149
+epoch: 9, batch_id: 1700, loss is：0.5521
+[validation] accuracy 0.6068, loss 0.5502
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")

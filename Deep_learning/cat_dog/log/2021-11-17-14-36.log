@@ -1,0 +1,50 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 116, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 38, in train
+    logits = model(img)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 902, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "D:\Users\Admin\PycharmProjects\PyCharm_Projects\Deep_learning\cat_dog\mnist.py", line 32, in forward
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 902, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\common.py", line 129, in forward
+    x=input, weight=self.weight, bias=self.bias, name=self.name)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\nn\functional\common.py", line 1451, in linear
+    'transpose_Y', False, "alpha", 1)
+ValueError: (InvalidArgument) Input X's width should be equal to the Y's height, but received X's shape: [10, 24200], Y's shape: [31250, 64].
+  [Hint: Expected mat_dim_x.width_ == mat_dim_y.height_, but received mat_dim_x.width_:24200 != mat_dim_y.height_:31250.] (at C:/home/workspace/Paddle_release/paddle/fluid/operators/matmul_op.cc:594)
+  [operator < matmul > error]
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+epoch: 0, batch_id: 0, loss is：0.6845
+epoch: 0, batch_id: 10, loss is：0.6937
+[validation] accuracy 0.3750, loss 0.9383
+1
+epoch: 1, batch_id: 0, loss is：0.6798
+epoch: 1, batch_id: 10, loss is：0.6875
+[validation] accuracy 0.3750, loss 0.9383
+2
+epoch: 2, batch_id: 0, loss is：0.6724
+epoch: 2, batch_id: 10, loss is：0.6793
+[validation] accuracy 0.3750, loss 0.9383
+3
+epoch: 3, batch_id: 0, loss is：0.6648
+epoch: 3, batch_id: 10, loss is：0.6709
+[validation] accuracy 0.3750, loss 0.9383
+4
+epoch: 4, batch_id: 0, loss is：0.6575
+epoch: 4, batch_id: 10, loss is：0.6633
+[validation] accuracy 0.3750, loss 0.9383
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")

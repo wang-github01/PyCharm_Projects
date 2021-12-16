@@ -1,13 +1,13 @@
 import paddle
 import cat_dog04
-import model
+import LeNet
 
 # 训练模型
 
 # 调用模型
-network = model.LeNet()
+network = LeNet.LeNet()
 # paddle.summary 打印模型
-y = paddle.summary(network, (1, 3, 100, 100))
+y = paddle.summary(network, (10, 3, 100, 100))
 print(y)
 model = paddle.Model(network) # 模型封装
 
@@ -20,9 +20,9 @@ model.prepare(paddle.optimizer.Adam(learning_rate=0.0001, parameters=model.param
 visualdl= paddle.callbacks.VisualDL(log_dir='visualdl_log')
 
 # 训练的数据提供器
-train_dataset = cat_dog04.FoodDataset(mode='training')
+train_dataset = cat_dog04.data_loader(datadir='test', batch_size=10)
 # 测试的数据提供器
-eval_dataset = cat_dog04.FoodDataset(mode='validation')
+eval_dataset = cat_dog04.valid_data_loader(datadir='test', batch_size=10)
 
 # 启动模型全流程训练
 model.fit(train_dataset,                    # 训练数据集

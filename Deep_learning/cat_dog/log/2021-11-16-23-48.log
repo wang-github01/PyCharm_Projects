@@ -1,0 +1,38 @@
+开始训练...
+=============
+=============
+0
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 115, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 38, in train
+    logits = model(img)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 902, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "D:\Users\Admin\PycharmProjects\PyCharm_Projects\Deep_learning\cat_dog\LeNet.py", line 59, in forward
+    x = self.fc1(x)  # 线性层
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 902, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\common.py", line 129, in forward
+    x=input, weight=self.weight, bias=self.bias, name=self.name)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\nn\functional\common.py", line 1451, in linear
+    'transpose_Y', False, "alpha", 1)
+ValueError: (InvalidArgument) Input X's width should be equal to the Y's height, but received X's shape: [1, 16200], Y's shape: [30000, 64].
+  [Hint: Expected mat_dim_x.width_ == mat_dim_y.height_, but received mat_dim_x.width_:16200 != mat_dim_y.height_:30000.] (at C:/home/workspace/Paddle_release/paddle/fluid/operators/matmul_op.cc:594)
+  [operator < matmul > error]
+开始训练...
+=============
+=============
+0
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 115, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 47, in train
+    data_loss.append(float(avg_loss.numpy()))
+OSError: (External)  Cuda error(715), an illegal instruction was encountered.
+  [Advise: Please search for the error code(715) on website( https://docs.nvidia.com/cuda/archive/10.0/cuda-runtime-api/group__CUDART__TYPES.html#group__CUDART__TYPES_1g3f51e3575c2178246db0a94a430e0038 ) to get Nvidia's official solution about CUDA Error.] (at C:\home\workspace\Paddle_release\paddle\fluid\platform\gpu_info.cc:394)
+

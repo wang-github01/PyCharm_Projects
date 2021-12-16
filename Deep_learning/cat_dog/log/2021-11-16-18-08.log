@@ -1,0 +1,21 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 109, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 37, in train
+    logits = model(img)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 902, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "D:\Users\Admin\PycharmProjects\PyCharm_Projects\Deep_learning\cat_dog\AlexNet.py", line 51, in forward
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\tensor\manipulation.py", line 1582, in reshape
+    return paddle.fluid.layers.reshape(x=x, shape=shape, name=name)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\layers\nn.py", line 6142, in reshape
+    out, _ = core.ops.reshape2(x, None, 'shape', shape)
+ValueError: (InvalidArgument) The 'shape' in ReshapeOp is invalid. The input tensor X'size must be equal to the capacity of 'shape'. But received X's shape = [10, 3, 100, 100], X's size = 300000, 'shape' is [1, 3, 100, 100], the capacity of 'shape' is 30000.
+  [Hint: Expected capacity == in_size, but received capacity:30000 != in_size:300000.] (at C:/home/workspace/Paddle_release/paddle/fluid/operators/reshape_op.cc:222)
+  [operator < reshape2 > error]

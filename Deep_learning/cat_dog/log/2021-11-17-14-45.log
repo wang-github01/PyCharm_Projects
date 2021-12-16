@@ -1,0 +1,22 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+epoch: 0, batch_id: 0, loss is：0.7942
+[validation] accuracy 0.6250, loss 0.2863
+1
+epoch: 1, batch_id: 0, loss is：0.1469
+[validation] accuracy 0.7500, loss 0.0915
+2
+epoch: 2, batch_id: 0, loss is：0.0375
+[validation] accuracy 0.9500, loss 0.0363
+3
+epoch: 3, batch_id: 0, loss is：0.0227
+[validation] accuracy 1.0000, loss 0.0210
+4
+epoch: 4, batch_id: 0, loss is：0.0169
+[validation] accuracy 1.0000, loss 0.0155
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")

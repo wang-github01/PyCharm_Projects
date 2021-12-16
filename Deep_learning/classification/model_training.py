@@ -13,6 +13,7 @@ network = model.MyCNN()
 y = paddle.summary(network, (1, 3, 100, 100))
 print(y)
 model = paddle.Model(network) # 模型封装
+print(model)
 
 # 配置优化器、损失函数、评估指标
 model.prepare(paddle.optimizer.Adam(learning_rate=0.0001, parameters=model.parameters()),

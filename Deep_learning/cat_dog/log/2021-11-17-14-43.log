@@ -1,0 +1,25 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+epoch: 0, batch_id: 0, loss is：0.0000
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 116, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 52, in train
+    avg_loss.backward()
+  File "D:\Users\Admin\Python37\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\wrapped_decorator.py", line 25, in __impl__
+    return wrapped_func(*args, **kwargs)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\framework.py", line 227, in __impl__
+    return func(*args, **kwargs)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\varbase_patch_methods.py", line 239, in backward
+    framework._dygraph_tracer())
+ValueError: (InvalidArgument) Tensor holds the wrong type, it holds float, but desires to be int64_t.
+  [Hint: Expected valid == true, but received valid:0 != true:1.] (at C:\home\workspace\Paddle_release\paddle/fluid/framework/tensor_impl.h:33)
+

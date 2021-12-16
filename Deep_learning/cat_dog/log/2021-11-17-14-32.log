@@ -1,0 +1,25 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+epoch: 0, batch_id: 0, loss is：0.6871
+epoch: 0, batch_id: 10, loss is：0.6909
+[validation] accuracy 0.3750, loss 0.9383
+1
+epoch: 1, batch_id: 0, loss is：0.6860
+epoch: 1, batch_id: 10, loss is：0.6893
+[validation] accuracy 0.3750, loss 0.9383
+2
+epoch: 2, batch_id: 0, loss is：0.6843
+epoch: 2, batch_id: 10, loss is：0.6876
+[validation] accuracy 0.3750, loss 0.9383
+3
+epoch: 3, batch_id: 0, loss is：0.6825
+epoch: 3, batch_id: 10, loss is：0.6859
+[validation] accuracy 0.3750, loss 0.9383
+4
+epoch: 4, batch_id: 0, loss is：0.6806
+epoch: 4, batch_id: 10, loss is：0.6842
+[validation] accuracy 0.3750, loss 0.9383

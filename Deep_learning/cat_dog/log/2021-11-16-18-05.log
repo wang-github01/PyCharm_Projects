@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 98, in <module>
+    model = LeNet.LeNet(num_classes=1)
+  File "D:\Users\Admin\PycharmProjects\PyCharm_Projects\Deep_learning\cat_dog\LeNet.py", line 16, in __init__
+    self.conv1 = paddle.nn.Conv2D(in_channels=3, out_channels=20, kernel_size=5, padding=0,act='sigmoid')# 二维卷积层
+TypeError: __init__() got an unexpected keyword argument 'act'
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+epoch: 0, batch_id: 0, loss is：0.6712
+[validation] accuracy 0.6250, loss 0.6624
+1
+epoch: 1, batch_id: 0, loss is：0.6353
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 109, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 70, in train
+    accuracies.append(acc.numpy())
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 98, in <module>
+    model = LeNet.LeNet(num_classes=1)
+  File "D:\Users\Admin\PycharmProjects\PyCharm_Projects\Deep_learning\cat_dog\LeNet.py", line 16, in __init__
+    self.conv1 = paddle.nn.Conv2D(in_channels=3, out_channels=20, kernel_size=5, padding=0)# 二维卷积层
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\conv.py", line 646, in __init__
+    data_format=data_format)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\conv.py", line 135, in __init__
+    default_initializer=_get_default_param_initializer())
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 412, in create_parameter
+    default_initializer)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\layer_helper_base.py", line 374, in create_parameter
+    **attr._to_kwargs(with_initializer=True))
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\framework.py", line 2920, in create_parameter
+    initializer(param, self)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\initializer.py", line 366, in __call__
+    stop_gradient=True)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\framework.py", line 2950, in append_op
+    kwargs.get("stop_gradient", False))
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\tracer.py", line 45, in trace_op
+    not stop_gradient)
+KeyboardInterrupt

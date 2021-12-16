@@ -1,0 +1,16 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 114, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 46, in train
+    data_loss.append(float(avg_loss.numpy()))
+OSError: (External)  Cuda error(715), an illegal instruction was encountered.
+  [Advise: Please search for the error code(715) on website( https://docs.nvidia.com/cuda/archive/10.0/cuda-runtime-api/group__CUDART__TYPES.html#group__CUDART__TYPES_1g3f51e3575c2178246db0a94a430e0038 ) to get Nvidia's official solution about CUDA Error.] (at C:\home\workspace\Paddle_release\paddle\fluid\platform\gpu_info.cc:394)
+

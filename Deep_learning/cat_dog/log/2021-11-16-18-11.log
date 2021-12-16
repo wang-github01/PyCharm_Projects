@@ -1,0 +1,42 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 109, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 37, in train
+    logits = model(img)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 902, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "D:\Users\Admin\PycharmProjects\PyCharm_Projects\Deep_learning\cat_dog\AlexNet.py", line 54, in forward
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 902, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\nn.py", line 239, in forward
+    out = core.ops.conv2d(input, self.weight, *attrs)
+ValueError: (InvalidArgument) The number of input's channels should be equal to filter's channels * groups for Op(Conv). But received: the input's channels is 20, the input's shape is [10, 20, 12, 12]; the filter's channels is 96, the filter's shape is [256, 96, 5, 5]; the groups is 1, the data_format is NCHW. The error may come from wrong data_format setting.
+  [Hint: Expected input_channels == filter_dims[1] * groups, but received input_channels:20 != filter_dims[1] * groups:96.] (at C:/home/workspace/Paddle_release/paddle/fluid/operators/conv_op.cc:100)
+  [operator < conv2d > error]
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 109, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 37, in train
+    logits = model(img)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 902, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "D:\Users\Admin\PycharmProjects\PyCharm_Projects\Deep_learning\cat_dog\AlexNet.py", line 54, in forward
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 902, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\nn.py", line 239, in forward
+    out = core.ops.conv2d(input, self.weight, *attrs)
+ValueError: (InvalidArgument) The number of input's channels should be equal to filter's channels * groups for Op(Conv). But received: the input's channels is 20, the input's shape is [10, 20, 12, 12]; the filter's channels is 96, the filter's shape is [256, 96, 5, 5]; the groups is 1, the data_format is NCHW. The error may come from wrong data_format setting.
+  [Hint: Expected input_channels == filter_dims[1] * groups, but received input_channels:20 != filter_dims[1] * groups:96.] (at C:/home/workspace/Paddle_release/paddle/fluid/operators/conv_op.cc:100)
+  [operator < conv2d > error]

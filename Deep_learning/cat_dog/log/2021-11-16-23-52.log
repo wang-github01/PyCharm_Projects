@@ -1,0 +1,37 @@
+开始训练...
+=============
+=============
+0
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 115, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 47, in train
+    data_loss.append(float(avg_loss.numpy()))
+OSError: (External)  Cuda error(715), an illegal instruction was encountered.
+  [Advise: Please search for the error code(715) on website( https://docs.nvidia.com/cuda/archive/10.0/cuda-runtime-api/group__CUDART__TYPES.html#group__CUDART__TYPES_1g3f51e3575c2178246db0a94a430e0038 ) to get Nvidia's official solution about CUDA Error.] (at C:\home\workspace\Paddle_release\paddle\fluid\platform\gpu_info.cc:394)
+
+开始训练...
+=============
+=============
+0
+epoch: 0, batch_id: 0, loss is：-0.1844
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 115, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 38, in train
+    logits = model(img)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 902, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "D:\Users\Admin\PycharmProjects\PyCharm_Projects\Deep_learning\cat_dog\LeNet.py", line 41, in forward
+    input = paddle.reshape(input, shape=[1, 3, 100, 100])  # 转换维度
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\tensor\manipulation.py", line 1582, in reshape
+    return paddle.fluid.layers.reshape(x=x, shape=shape, name=name)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\layers\nn.py", line 6142, in reshape
+    out, _ = core.ops.reshape2(x, None, 'shape', shape)
+ValueError: (InvalidArgument) The 'shape' in ReshapeOp is invalid. The input tensor X'size must be equal to the capacity of 'shape'. But received X's shape = [2, 3, 100, 100], X's size = 60000, 'shape' is [1, 3, 100, 100], the capacity of 'shape' is 30000.
+  [Hint: Expected capacity == in_size, but received capacity:30000 != in_size:60000.] (at C:/home/workspace/Paddle_release/paddle/fluid/operators/reshape_op.cc:222)
+  [operator < reshape2 > error]

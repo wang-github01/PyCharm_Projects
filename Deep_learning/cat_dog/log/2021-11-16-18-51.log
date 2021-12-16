@@ -1,0 +1,37 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+epoch: 0, batch_id: 0, loss is：0.7096
+[validation] accuracy 0.6250, loss 0.6617
+1
+epoch: 1, batch_id: 0, loss is：0.7396
+[validation] accuracy 0.6250, loss 0.6599
+2
+epoch: 2, batch_id: 0, loss is：0.7699
+[validation] accuracy 0.6250, loss 0.6584
+3
+epoch: 3, batch_id: 0, loss is：0.7757
+[validation] accuracy 0.6250, loss 0.6558
+4
+epoch: 4, batch_id: 0, loss is：0.7685
+[validation] accuracy 0.6250, loss 0.6538
+5
+epoch: 5, batch_id: 0, loss is：0.7618
+[validation] accuracy 0.6250, loss 0.6522
+6
+epoch: 6, batch_id: 0, loss is：0.7590
+[validation] accuracy 0.6250, loss 0.6508
+7
+epoch: 7, batch_id: 0, loss is：0.7582
+[validation] accuracy 0.6250, loss 0.6494
+8
+epoch: 8, batch_id: 0, loss is：0.7574
+[validation] accuracy 0.6250, loss 0.6481
+9
+epoch: 9, batch_id: 0, loss is：0.7561
+[validation] accuracy 0.6250, loss 0.6467
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")

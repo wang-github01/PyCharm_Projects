@@ -1,0 +1,50 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+epoch: 0, batch_id: 0, loss is：0.6782
+epoch: 0, batch_id: 10, loss is：0.6855
+[validation] accuracy 0.3750, loss 0.9383
+1
+epoch: 1, batch_id: 0, loss is：0.6765
+epoch: 1, batch_id: 10, loss is：0.6827
+[validation] accuracy 0.3750, loss 0.9383
+2
+epoch: 2, batch_id: 0, loss is：0.6730
+epoch: 2, batch_id: 10, loss is：0.6790
+[validation] accuracy 0.3750, loss 0.9383
+3
+epoch: 3, batch_id: 0, loss is：0.6683
+epoch: 3, batch_id: 10, loss is：0.6742
+[validation] accuracy 0.3750, loss 0.9383
+4
+epoch: 4, batch_id: 0, loss is：0.6624
+epoch: 4, batch_id: 10, loss is：0.6679
+[validation] accuracy 0.3750, loss 0.9383
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+epoch: 0, batch_id: 0, loss is：0.6936
+epoch: 0, batch_id: 10, loss is：0.6929
+[validation] accuracy 0.3750, loss 0.9383
+1
+epoch: 1, batch_id: 0, loss is：0.6930
+epoch: 1, batch_id: 10, loss is：0.6927
+[validation] accuracy 0.3750, loss 0.9383
+2
+epoch: 2, batch_id: 0, loss is：0.6918
+epoch: 2, batch_id: 10, loss is：0.6923
+[validation] accuracy 0.3750, loss 0.9383
+3
+epoch: 3, batch_id: 0, loss is：0.6906
+epoch: 3, batch_id: 10, loss is：0.6920
+[validation] accuracy 0.3750, loss 0.9383
+4
+epoch: 4, batch_id: 0, loss is：0.6892
+epoch: 4, batch_id: 10, loss is：0.6916
+[validation] accuracy 0.3750, loss 0.9383

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 105, in <module>
+    model = mnist.MNIST(num_classes = 1)
+  File "D:\Users\Admin\PycharmProjects\PyCharm_Projects\Deep_learning\cat_dog\mnist.py", line 14, in __init__
+TypeError: __init__() missing 2 required positional arguments: 'in_channels' and 'out_channels'

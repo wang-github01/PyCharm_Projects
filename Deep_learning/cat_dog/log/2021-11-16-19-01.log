@@ -1,0 +1,1007 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+epoch: 0, batch_id: 0, loss is：0.6650
+epoch: 0, batch_id: 100, loss is：0.6971
+epoch: 0, batch_id: 200, loss is：0.7493
+epoch: 0, batch_id: 300, loss is：0.6939
+epoch: 0, batch_id: 400, loss is：0.6890
+epoch: 0, batch_id: 500, loss is：0.7006
+epoch: 0, batch_id: 600, loss is：0.6740
+epoch: 0, batch_id: 700, loss is：0.6958
+epoch: 0, batch_id: 800, loss is：0.6680
+epoch: 0, batch_id: 900, loss is：0.7100
+epoch: 0, batch_id: 1000, loss is：0.7135
+epoch: 0, batch_id: 1100, loss is：0.7020
+epoch: 0, batch_id: 1200, loss is：0.6986
+epoch: 0, batch_id: 1300, loss is：0.7030
+epoch: 0, batch_id: 1400, loss is：0.6948
+epoch: 0, batch_id: 1500, loss is：0.6856
+epoch: 0, batch_id: 1600, loss is：0.7018
+epoch: 0, batch_id: 1700, loss is：0.6945
+[validation] accuracy 0.4999, loss 0.6858
+1
+epoch: 1, batch_id: 0, loss is：0.6905
+epoch: 1, batch_id: 100, loss is：0.7222
+epoch: 1, batch_id: 200, loss is：0.7433
+epoch: 1, batch_id: 300, loss is：0.6855
+epoch: 1, batch_id: 400, loss is：0.6794
+epoch: 1, batch_id: 500, loss is：0.6819
+epoch: 1, batch_id: 600, loss is：0.6735
+epoch: 1, batch_id: 700, loss is：0.6950
+epoch: 1, batch_id: 800, loss is：0.6484
+epoch: 1, batch_id: 900, loss is：0.7101
+epoch: 1, batch_id: 1000, loss is：0.7191
+epoch: 1, batch_id: 1100, loss is：0.6928
+epoch: 1, batch_id: 1200, loss is：0.7109
+epoch: 1, batch_id: 1300, loss is：0.6754
+epoch: 1, batch_id: 1400, loss is：0.6853
+epoch: 1, batch_id: 1500, loss is：0.6804
+epoch: 1, batch_id: 1600, loss is：0.7063
+epoch: 1, batch_id: 1700, loss is：0.6935
+[validation] accuracy 0.4999, loss 0.6780
+2
+epoch: 2, batch_id: 0, loss is：0.6994
+epoch: 2, batch_id: 100, loss is：0.7526
+epoch: 2, batch_id: 200, loss is：0.7403
+epoch: 2, batch_id: 300, loss is：0.6784
+epoch: 2, batch_id: 400, loss is：0.6688
+epoch: 2, batch_id: 500, loss is：0.6671
+epoch: 2, batch_id: 600, loss is：0.6765
+epoch: 2, batch_id: 700, loss is：0.6947
+epoch: 2, batch_id: 800, loss is：0.6287
+epoch: 2, batch_id: 900, loss is：0.7088
+epoch: 2, batch_id: 1000, loss is：0.7245
+epoch: 2, batch_id: 1100, loss is：0.6869
+epoch: 2, batch_id: 1200, loss is：0.7181
+epoch: 2, batch_id: 1300, loss is：0.6435
+epoch: 2, batch_id: 1400, loss is：0.6786
+epoch: 2, batch_id: 1500, loss is：0.6809
+epoch: 2, batch_id: 1600, loss is：0.7149
+epoch: 2, batch_id: 1700, loss is：0.6887
+[validation] accuracy 0.4999, loss 0.6697
+3
+epoch: 3, batch_id: 0, loss is：0.7074
+epoch: 3, batch_id: 100, loss is：0.7885
+epoch: 3, batch_id: 200, loss is：0.7320
+epoch: 3, batch_id: 300, loss is：0.6726
+epoch: 3, batch_id: 400, loss is：0.6582
+epoch: 3, batch_id: 500, loss is：0.6554
+epoch: 3, batch_id: 600, loss is：0.6821
+epoch: 3, batch_id: 700, loss is：0.6934
+epoch: 3, batch_id: 800, loss is：0.6117
+epoch: 3, batch_id: 900, loss is：0.7011
+epoch: 3, batch_id: 1000, loss is：0.7336
+epoch: 3, batch_id: 1100, loss is：0.6859
+epoch: 3, batch_id: 1200, loss is：0.7181
+epoch: 3, batch_id: 1300, loss is：0.6088
+epoch: 3, batch_id: 1400, loss is：0.6733
+epoch: 3, batch_id: 1500, loss is：0.6860
+epoch: 3, batch_id: 1600, loss is：0.7246
+epoch: 3, batch_id: 1700, loss is：0.6803
+[validation] accuracy 0.4999, loss 0.6618
+4
+epoch: 4, batch_id: 0, loss is：0.7145
+epoch: 4, batch_id: 100, loss is：0.8216
+epoch: 4, batch_id: 200, loss is：0.7170
+epoch: 4, batch_id: 300, loss is：0.6633
+epoch: 4, batch_id: 400, loss is：0.6486
+epoch: 4, batch_id: 500, loss is：0.6456
+epoch: 4, batch_id: 600, loss is：0.6871
+epoch: 4, batch_id: 700, loss is：0.6873
+epoch: 4, batch_id: 800, loss is：0.5979
+epoch: 4, batch_id: 900, loss is：0.6838
+epoch: 4, batch_id: 1000, loss is：0.7470
+epoch: 4, batch_id: 1100, loss is：0.6902
+epoch: 4, batch_id: 1200, loss is：0.7110
+epoch: 4, batch_id: 1300, loss is：0.5751
+epoch: 4, batch_id: 1400, loss is：0.6673
+epoch: 4, batch_id: 1500, loss is：0.6907
+epoch: 4, batch_id: 1600, loss is：0.7327
+epoch: 4, batch_id: 1700, loss is：0.6709
+[validation] accuracy 0.4999, loss 0.6547
+5
+epoch: 5, batch_id: 0, loss is：0.7204
+epoch: 5, batch_id: 100, loss is：0.8470
+epoch: 5, batch_id: 200, loss is：0.6948
+epoch: 5, batch_id: 300, loss is：0.6485
+epoch: 5, batch_id: 400, loss is：0.6393
+epoch: 5, batch_id: 500, loss is：0.6379
+epoch: 5, batch_id: 600, loss is：0.6902
+epoch: 5, batch_id: 700, loss is：0.6770
+epoch: 5, batch_id: 800, loss is：0.5884
+epoch: 5, batch_id: 900, loss is：0.6591
+epoch: 5, batch_id: 1000, loss is：0.7631
+epoch: 5, batch_id: 1100, loss is：0.6968
+epoch: 5, batch_id: 1200, loss is：0.7008
+epoch: 5, batch_id: 1300, loss is：0.5450
+epoch: 5, batch_id: 1400, loss is：0.6603
+epoch: 5, batch_id: 1500, loss is：0.6926
+epoch: 5, batch_id: 1600, loss is：0.7387
+epoch: 5, batch_id: 1700, loss is：0.6633
+[validation] accuracy 0.4999, loss 0.6486
+6
+epoch: 6, batch_id: 0, loss is：0.7244
+epoch: 6, batch_id: 100, loss is：0.8672
+epoch: 6, batch_id: 200, loss is：0.6683
+epoch: 6, batch_id: 300, loss is：0.6323
+epoch: 6, batch_id: 400, loss is：0.6297
+epoch: 6, batch_id: 500, loss is：0.6328
+epoch: 6, batch_id: 600, loss is：0.6921
+epoch: 6, batch_id: 700, loss is：0.6677
+epoch: 6, batch_id: 800, loss is：0.5830
+epoch: 6, batch_id: 900, loss is：0.6342
+epoch: 6, batch_id: 1000, loss is：0.7791
+epoch: 6, batch_id: 1100, loss is：0.7019
+epoch: 6, batch_id: 1200, loss is：0.6922
+epoch: 6, batch_id: 1300, loss is：0.5209
+epoch: 6, batch_id: 1400, loss is：0.6523
+epoch: 6, batch_id: 1500, loss is：0.6932
+epoch: 6, batch_id: 1600, loss is：0.7429
+epoch: 6, batch_id: 1700, loss is：0.6573
+[validation] accuracy 0.4999, loss 0.6439
+7
+epoch: 7, batch_id: 0, loss is：0.7269
+epoch: 7, batch_id: 100, loss is：0.8842
+epoch: 7, batch_id: 200, loss is：0.6442
+epoch: 7, batch_id: 300, loss is：0.6178
+epoch: 7, batch_id: 400, loss is：0.6205
+epoch: 7, batch_id: 500, loss is：0.6297
+epoch: 7, batch_id: 600, loss is：0.6930
+epoch: 7, batch_id: 700, loss is：0.6613
+epoch: 7, batch_id: 800, loss is：0.5794
+epoch: 7, batch_id: 900, loss is：0.6138
+epoch: 7, batch_id: 1000, loss is：0.7914
+epoch: 7, batch_id: 1100, loss is：0.7049
+epoch: 7, batch_id: 1200, loss is：0.6869
+epoch: 7, batch_id: 1300, loss is：0.5034
+epoch: 7, batch_id: 1400, loss is：0.6440
+epoch: 7, batch_id: 1500, loss is：0.6933
+epoch: 7, batch_id: 1600, loss is：0.7455
+epoch: 7, batch_id: 1700, loss is：0.6513
+[validation] accuracy 0.4999, loss 0.6402
+8
+epoch: 8, batch_id: 0, loss is：0.7283
+epoch: 8, batch_id: 100, loss is：0.8973
+epoch: 8, batch_id: 200, loss is：0.6267
+epoch: 8, batch_id: 300, loss is：0.6054
+epoch: 8, batch_id: 400, loss is：0.6123
+epoch: 8, batch_id: 500, loss is：0.6276
+epoch: 8, batch_id: 600, loss is：0.6931
+epoch: 8, batch_id: 700, loss is：0.6573
+epoch: 8, batch_id: 800, loss is：0.5755
+epoch: 8, batch_id: 900, loss is：0.5982
+epoch: 8, batch_id: 1000, loss is：0.7988
+epoch: 8, batch_id: 1100, loss is：0.7071
+epoch: 8, batch_id: 1200, loss is：0.6842
+epoch: 8, batch_id: 1300, loss is：0.4906
+epoch: 8, batch_id: 1400, loss is：0.6364
+epoch: 8, batch_id: 1500, loss is：0.6928
+epoch: 8, batch_id: 1600, loss is：0.7473
+epoch: 8, batch_id: 1700, loss is：0.6444
+[validation] accuracy 0.4999, loss 0.6372
+9
+epoch: 9, batch_id: 0, loss is：0.7287
+epoch: 9, batch_id: 100, loss is：0.9061
+epoch: 9, batch_id: 200, loss is：0.6154
+epoch: 9, batch_id: 300, loss is：0.5949
+epoch: 9, batch_id: 400, loss is：0.6047
+epoch: 9, batch_id: 500, loss is：0.6259
+epoch: 9, batch_id: 600, loss is：0.6921
+epoch: 9, batch_id: 700, loss is：0.6551
+epoch: 9, batch_id: 800, loss is：0.5708
+epoch: 9, batch_id: 900, loss is：0.5862
+epoch: 9, batch_id: 1000, loss is：0.8018
+epoch: 9, batch_id: 1100, loss is：0.7094
+epoch: 9, batch_id: 1200, loss is：0.6832
+epoch: 9, batch_id: 1300, loss is：0.4807
+epoch: 9, batch_id: 1400, loss is：0.6297
+epoch: 9, batch_id: 1500, loss is：0.6916
+epoch: 9, batch_id: 1600, loss is：0.7486
+epoch: 9, batch_id: 1700, loss is：0.6361
+[validation] accuracy 0.4999, loss 0.6343
+10
+epoch: 10, batch_id: 0, loss is：0.7281
+epoch: 10, batch_id: 100, loss is：0.9110
+epoch: 10, batch_id: 200, loss is：0.6082
+epoch: 10, batch_id: 300, loss is：0.5863
+epoch: 10, batch_id: 400, loss is：0.5977
+epoch: 10, batch_id: 500, loss is：0.6243
+epoch: 10, batch_id: 600, loss is：0.6897
+epoch: 10, batch_id: 700, loss is：0.6544
+epoch: 10, batch_id: 800, loss is：0.5650
+epoch: 10, batch_id: 900, loss is：0.5765
+epoch: 10, batch_id: 1000, loss is：0.8010
+epoch: 10, batch_id: 1100, loss is：0.7120
+epoch: 10, batch_id: 1200, loss is：0.6833
+epoch: 10, batch_id: 1300, loss is：0.4721
+epoch: 10, batch_id: 1400, loss is：0.6237
+epoch: 10, batch_id: 1500, loss is：0.6902
+epoch: 10, batch_id: 1600, loss is：0.7495
+epoch: 10, batch_id: 1700, loss is：0.6263
+[validation] accuracy 0.4999, loss 0.6313
+11
+epoch: 11, batch_id: 0, loss is：0.7264
+epoch: 11, batch_id: 100, loss is：0.9127
+epoch: 11, batch_id: 200, loss is：0.6035
+epoch: 11, batch_id: 300, loss is：0.5793
+epoch: 11, batch_id: 400, loss is：0.5908
+epoch: 11, batch_id: 500, loss is：0.6225
+epoch: 11, batch_id: 600, loss is：0.6854
+epoch: 11, batch_id: 700, loss is：0.6550
+epoch: 11, batch_id: 800, loss is：0.5579
+epoch: 11, batch_id: 900, loss is：0.5681
+epoch: 11, batch_id: 1000, loss is：0.7967
+epoch: 11, batch_id: 1100, loss is：0.7152
+epoch: 11, batch_id: 1200, loss is：0.6845
+epoch: 11, batch_id: 1300, loss is：0.4641
+epoch: 11, batch_id: 1400, loss is：0.6179
+epoch: 11, batch_id: 1500, loss is：0.6888
+epoch: 11, batch_id: 1600, loss is：0.7502
+epoch: 11, batch_id: 1700, loss is：0.6152
+[validation] accuracy 0.4999, loss 0.6281
+12
+epoch: 12, batch_id: 0, loss is：0.7238
+epoch: 12, batch_id: 100, loss is：0.9115
+epoch: 12, batch_id: 200, loss is：0.5998
+epoch: 12, batch_id: 300, loss is：0.5731
+epoch: 12, batch_id: 400, loss is：0.5838
+epoch: 12, batch_id: 500, loss is：0.6200
+epoch: 12, batch_id: 600, loss is：0.6790
+epoch: 12, batch_id: 700, loss is：0.6572
+epoch: 12, batch_id: 800, loss is：0.5497
+epoch: 12, batch_id: 900, loss is：0.5599
+epoch: 12, batch_id: 1000, loss is：0.7891
+epoch: 12, batch_id: 1100, loss is：0.7191
+epoch: 12, batch_id: 1200, loss is：0.6867
+epoch: 12, batch_id: 1300, loss is：0.4562
+epoch: 12, batch_id: 1400, loss is：0.6121
+epoch: 12, batch_id: 1500, loss is：0.6880
+epoch: 12, batch_id: 1600, loss is：0.7508
+epoch: 12, batch_id: 1700, loss is：0.6025
+[validation] accuracy 0.4999, loss 0.6245
+13
+epoch: 13, batch_id: 0, loss is：0.7205
+epoch: 13, batch_id: 100, loss is：0.9070
+epoch: 13, batch_id: 200, loss is：0.5960
+epoch: 13, batch_id: 300, loss is：0.5666
+epoch: 13, batch_id: 400, loss is：0.5768
+epoch: 13, batch_id: 500, loss is：0.6162
+epoch: 13, batch_id: 600, loss is：0.6704
+epoch: 13, batch_id: 700, loss is：0.6616
+epoch: 13, batch_id: 800, loss is：0.5411
+epoch: 13, batch_id: 900, loss is：0.5514
+epoch: 13, batch_id: 1000, loss is：0.7784
+epoch: 13, batch_id: 1100, loss is：0.7244
+epoch: 13, batch_id: 1200, loss is：0.6902
+epoch: 13, batch_id: 1300, loss is：0.4487
+epoch: 13, batch_id: 1400, loss is：0.6061
+epoch: 13, batch_id: 1500, loss is：0.6887
+epoch: 13, batch_id: 1600, loss is：0.7516
+epoch: 13, batch_id: 1700, loss is：0.5883
+[validation] accuracy 0.4999, loss 0.6205
+14
+epoch: 14, batch_id: 0, loss is：0.7163
+epoch: 14, batch_id: 100, loss is：0.8987
+epoch: 14, batch_id: 200, loss is：0.5914
+epoch: 14, batch_id: 300, loss is：0.5592
+epoch: 14, batch_id: 400, loss is：0.5703
+epoch: 14, batch_id: 500, loss is：0.6109
+epoch: 14, batch_id: 600, loss is：0.6594
+epoch: 14, batch_id: 700, loss is：0.6691
+epoch: 14, batch_id: 800, loss is：0.5330
+epoch: 14, batch_id: 900, loss is：0.5427
+epoch: 14, batch_id: 1000, loss is：0.7648
+epoch: 14, batch_id: 1100, loss is：0.7311
+epoch: 14, batch_id: 1200, loss is：0.6954
+epoch: 14, batch_id: 1300, loss is：0.4422
+epoch: 14, batch_id: 1400, loss is：0.5998
+epoch: 14, batch_id: 1500, loss is：0.6917
+epoch: 14, batch_id: 1600, loss is：0.7530
+epoch: 14, batch_id: 1700, loss is：0.5727
+[validation] accuracy 0.5003, loss 0.6164
+15
+epoch: 15, batch_id: 0, loss is：0.7120
+epoch: 15, batch_id: 100, loss is：0.8867
+epoch: 15, batch_id: 200, loss is：0.5861
+epoch: 15, batch_id: 300, loss is：0.5507
+epoch: 15, batch_id: 400, loss is：0.5643
+epoch: 15, batch_id: 500, loss is：0.6045
+epoch: 15, batch_id: 600, loss is：0.6464
+epoch: 15, batch_id: 700, loss is：0.6800
+epoch: 15, batch_id: 800, loss is：0.5263
+epoch: 15, batch_id: 900, loss is：0.5343
+epoch: 15, batch_id: 1000, loss is：0.7491
+epoch: 15, batch_id: 1100, loss is：0.7392
+epoch: 15, batch_id: 1200, loss is：0.7024
+epoch: 15, batch_id: 1300, loss is：0.4371
+epoch: 15, batch_id: 1400, loss is：0.5933
+epoch: 15, batch_id: 1500, loss is：0.6973
+epoch: 15, batch_id: 1600, loss is：0.7548
+epoch: 15, batch_id: 1700, loss is：0.5568
+[validation] accuracy 0.5011, loss 0.6124
+16
+epoch: 16, batch_id: 0, loss is：0.7081
+epoch: 16, batch_id: 100, loss is：0.8726
+epoch: 16, batch_id: 200, loss is：0.5805
+epoch: 16, batch_id: 300, loss is：0.5419
+epoch: 16, batch_id: 400, loss is：0.5587
+epoch: 16, batch_id: 500, loss is：0.5976
+epoch: 16, batch_id: 600, loss is：0.6325
+epoch: 16, batch_id: 700, loss is：0.6934
+epoch: 16, batch_id: 800, loss is：0.5213
+epoch: 16, batch_id: 900, loss is：0.5271
+epoch: 16, batch_id: 1000, loss is：0.7321
+epoch: 16, batch_id: 1100, loss is：0.7480
+epoch: 16, batch_id: 1200, loss is：0.7105
+epoch: 16, batch_id: 1300, loss is：0.4336
+epoch: 16, batch_id: 1400, loss is：0.5875
+epoch: 16, batch_id: 1500, loss is：0.7043
+epoch: 16, batch_id: 1600, loss is：0.7562
+epoch: 16, batch_id: 1700, loss is：0.5415
+[validation] accuracy 0.5023, loss 0.6087
+17
+epoch: 17, batch_id: 0, loss is：0.7054
+epoch: 17, batch_id: 100, loss is：0.8585
+epoch: 17, batch_id: 200, loss is：0.5757
+epoch: 17, batch_id: 300, loss is：0.5338
+epoch: 17, batch_id: 400, loss is：0.5538
+epoch: 17, batch_id: 500, loss is：0.5908
+epoch: 17, batch_id: 600, loss is：0.6191
+epoch: 17, batch_id: 700, loss is：0.7071
+epoch: 17, batch_id: 800, loss is：0.5176
+epoch: 17, batch_id: 900, loss is：0.5212
+epoch: 17, batch_id: 1000, loss is：0.7156
+epoch: 17, batch_id: 1100, loss is：0.7566
+epoch: 17, batch_id: 1200, loss is：0.7184
+epoch: 17, batch_id: 1300, loss is：0.4308
+epoch: 17, batch_id: 1400, loss is：0.5831
+epoch: 17, batch_id: 1500, loss is：0.7109
+epoch: 17, batch_id: 1600, loss is：0.7566
+epoch: 17, batch_id: 1700, loss is：0.5279
+[validation] accuracy 0.5041, loss 0.6056
+18
+epoch: 18, batch_id: 0, loss is：0.7039
+epoch: 18, batch_id: 100, loss is：0.8461
+epoch: 18, batch_id: 200, loss is：0.5716
+epoch: 18, batch_id: 300, loss is：0.5267
+epoch: 18, batch_id: 400, loss is：0.5499
+epoch: 18, batch_id: 500, loss is：0.5842
+epoch: 18, batch_id: 600, loss is：0.6069
+epoch: 18, batch_id: 700, loss is：0.7190
+epoch: 18, batch_id: 800, loss is：0.5158
+epoch: 18, batch_id: 900, loss is：0.5163
+epoch: 18, batch_id: 1000, loss is：0.7008
+epoch: 18, batch_id: 1100, loss is：0.7639
+epoch: 18, batch_id: 1200, loss is：0.7250
+epoch: 18, batch_id: 1300, loss is：0.4280
+epoch: 18, batch_id: 1400, loss is：0.5811
+epoch: 18, batch_id: 1500, loss is：0.7157
+epoch: 18, batch_id: 1600, loss is：0.7554
+epoch: 18, batch_id: 1700, loss is：0.5162
+[validation] accuracy 0.5063, loss 0.6028
+19
+epoch: 19, batch_id: 0, loss is：0.7031
+epoch: 19, batch_id: 100, loss is：0.8358
+epoch: 19, batch_id: 200, loss is：0.5676
+epoch: 19, batch_id: 300, loss is：0.5209
+epoch: 19, batch_id: 400, loss is：0.5472
+epoch: 19, batch_id: 500, loss is：0.5771
+epoch: 19, batch_id: 600, loss is：0.5960
+epoch: 19, batch_id: 700, loss is：0.7278
+epoch: 19, batch_id: 800, loss is：0.5162
+epoch: 19, batch_id: 900, loss is：0.5115
+epoch: 19, batch_id: 1000, loss is：0.6884
+epoch: 19, batch_id: 1100, loss is：0.7688
+epoch: 19, batch_id: 1200, loss is：0.7297
+epoch: 19, batch_id: 1300, loss is：0.4242
+epoch: 19, batch_id: 1400, loss is：0.5819
+epoch: 19, batch_id: 1500, loss is：0.7175
+epoch: 19, batch_id: 1600, loss is：0.7524
+epoch: 19, batch_id: 1700, loss is：0.5066
+[validation] accuracy 0.5084, loss 0.6004
+20
+epoch: 20, batch_id: 0, loss is：0.7028
+epoch: 20, batch_id: 100, loss is：0.8270
+epoch: 20, batch_id: 200, loss is：0.5629
+epoch: 20, batch_id: 300, loss is：0.5167
+epoch: 20, batch_id: 400, loss is：0.5463
+epoch: 20, batch_id: 500, loss is：0.5692
+epoch: 20, batch_id: 600, loss is：0.5880
+epoch: 20, batch_id: 700, loss is：0.7333
+epoch: 20, batch_id: 800, loss is：0.5176
+epoch: 20, batch_id: 900, loss is：0.5060
+epoch: 20, batch_id: 1000, loss is：0.6787
+epoch: 20, batch_id: 1100, loss is：0.7709
+epoch: 20, batch_id: 1200, loss is：0.7326
+epoch: 20, batch_id: 1300, loss is：0.4190
+epoch: 20, batch_id: 1400, loss is：0.5851
+epoch: 20, batch_id: 1500, loss is：0.7162
+epoch: 20, batch_id: 1600, loss is：0.7483
+epoch: 20, batch_id: 1700, loss is：0.4986
+[validation] accuracy 0.5112, loss 0.5980
+21
+epoch: 21, batch_id: 0, loss is：0.7028
+epoch: 21, batch_id: 100, loss is：0.8194
+epoch: 21, batch_id: 200, loss is：0.5574
+epoch: 21, batch_id: 300, loss is：0.5144
+epoch: 21, batch_id: 400, loss is：0.5465
+epoch: 21, batch_id: 500, loss is：0.5610
+epoch: 21, batch_id: 600, loss is：0.5835
+epoch: 21, batch_id: 700, loss is：0.7386
+epoch: 21, batch_id: 800, loss is：0.5181
+epoch: 21, batch_id: 900, loss is：0.5001
+epoch: 21, batch_id: 1000, loss is：0.6715
+epoch: 21, batch_id: 1100, loss is：0.7721
+epoch: 21, batch_id: 1200, loss is：0.7351
+epoch: 21, batch_id: 1300, loss is：0.4139
+epoch: 21, batch_id: 1400, loss is：0.5886
+epoch: 21, batch_id: 1500, loss is：0.7146
+epoch: 21, batch_id: 1600, loss is：0.7451
+epoch: 21, batch_id: 1700, loss is：0.4911
+[validation] accuracy 0.5151, loss 0.5957
+22
+epoch: 22, batch_id: 0, loss is：0.7025
+epoch: 22, batch_id: 100, loss is：0.8127
+epoch: 22, batch_id: 200, loss is：0.5515
+epoch: 22, batch_id: 300, loss is：0.5115
+epoch: 22, batch_id: 400, loss is：0.5452
+epoch: 22, batch_id: 500, loss is：0.5537
+epoch: 22, batch_id: 600, loss is：0.5799
+epoch: 22, batch_id: 700, loss is：0.7449
+epoch: 22, batch_id: 800, loss is：0.5180
+epoch: 22, batch_id: 900, loss is：0.4948
+epoch: 22, batch_id: 1000, loss is：0.6658
+epoch: 22, batch_id: 1100, loss is：0.7730
+epoch: 22, batch_id: 1200, loss is：0.7372
+epoch: 22, batch_id: 1300, loss is：0.4093
+epoch: 22, batch_id: 1400, loss is：0.5917
+epoch: 22, batch_id: 1500, loss is：0.7137
+epoch: 22, batch_id: 1600, loss is：0.7428
+epoch: 22, batch_id: 1700, loss is：0.4839
+[validation] accuracy 0.5173, loss 0.5936
+23
+epoch: 23, batch_id: 0, loss is：0.7019
+epoch: 23, batch_id: 100, loss is：0.8065
+epoch: 23, batch_id: 200, loss is：0.5455
+epoch: 23, batch_id: 300, loss is：0.5080
+epoch: 23, batch_id: 400, loss is：0.5425
+epoch: 23, batch_id: 500, loss is：0.5472
+epoch: 23, batch_id: 600, loss is：0.5767
+epoch: 23, batch_id: 700, loss is：0.7513
+epoch: 23, batch_id: 800, loss is：0.5183
+epoch: 23, batch_id: 900, loss is：0.4906
+epoch: 23, batch_id: 1000, loss is：0.6612
+epoch: 23, batch_id: 1100, loss is：0.7734
+epoch: 23, batch_id: 1200, loss is：0.7383
+epoch: 23, batch_id: 1300, loss is：0.4050
+epoch: 23, batch_id: 1400, loss is：0.5943
+epoch: 23, batch_id: 1500, loss is：0.7130
+epoch: 23, batch_id: 1600, loss is：0.7412
+epoch: 23, batch_id: 1700, loss is：0.4770
+[validation] accuracy 0.5193, loss 0.5915
+24
+epoch: 24, batch_id: 0, loss is：0.7007
+epoch: 24, batch_id: 100, loss is：0.8006
+epoch: 24, batch_id: 200, loss is：0.5393
+epoch: 24, batch_id: 300, loss is：0.5043
+epoch: 24, batch_id: 400, loss is：0.5390
+epoch: 24, batch_id: 500, loss is：0.5412
+epoch: 24, batch_id: 600, loss is：0.5739
+epoch: 24, batch_id: 700, loss is：0.7573
+epoch: 24, batch_id: 800, loss is：0.5191
+epoch: 24, batch_id: 900, loss is：0.4873
+epoch: 24, batch_id: 1000, loss is：0.6572
+epoch: 24, batch_id: 1100, loss is：0.7733
+epoch: 24, batch_id: 1200, loss is：0.7384
+epoch: 24, batch_id: 1300, loss is：0.4007
+epoch: 24, batch_id: 1400, loss is：0.5966
+epoch: 24, batch_id: 1500, loss is：0.7124
+epoch: 24, batch_id: 1600, loss is：0.7401
+epoch: 24, batch_id: 1700, loss is：0.4703
+[validation] accuracy 0.5204, loss 0.5894
+25
+epoch: 25, batch_id: 0, loss is：0.6991
+epoch: 25, batch_id: 100, loss is：0.7950
+epoch: 25, batch_id: 200, loss is：0.5328
+epoch: 25, batch_id: 300, loss is：0.5005
+epoch: 25, batch_id: 400, loss is：0.5348
+epoch: 25, batch_id: 500, loss is：0.5354
+epoch: 25, batch_id: 600, loss is：0.5713
+epoch: 25, batch_id: 700, loss is：0.7626
+epoch: 25, batch_id: 800, loss is：0.5204
+epoch: 25, batch_id: 900, loss is：0.4846
+epoch: 25, batch_id: 1000, loss is：0.6534
+epoch: 25, batch_id: 1100, loss is：0.7730
+epoch: 25, batch_id: 1200, loss is：0.7376
+epoch: 25, batch_id: 1300, loss is：0.3966
+epoch: 25, batch_id: 1400, loss is：0.5989
+epoch: 25, batch_id: 1500, loss is：0.7117
+epoch: 25, batch_id: 1600, loss is：0.7392
+epoch: 25, batch_id: 1700, loss is：0.4638
+[validation] accuracy 0.5217, loss 0.5873
+26
+epoch: 26, batch_id: 0, loss is：0.6970
+epoch: 26, batch_id: 100, loss is：0.7897
+epoch: 26, batch_id: 200, loss is：0.5259
+epoch: 26, batch_id: 300, loss is：0.4967
+epoch: 26, batch_id: 400, loss is：0.5301
+epoch: 26, batch_id: 500, loss is：0.5297
+epoch: 26, batch_id: 600, loss is：0.5687
+epoch: 26, batch_id: 700, loss is：0.7674
+epoch: 26, batch_id: 800, loss is：0.5225
+epoch: 26, batch_id: 900, loss is：0.4823
+epoch: 26, batch_id: 1000, loss is：0.6499
+epoch: 26, batch_id: 1100, loss is：0.7724
+epoch: 26, batch_id: 1200, loss is：0.7360
+epoch: 26, batch_id: 1300, loss is：0.3924
+epoch: 26, batch_id: 1400, loss is：0.6012
+epoch: 26, batch_id: 1500, loss is：0.7109
+epoch: 26, batch_id: 1600, loss is：0.7384
+epoch: 26, batch_id: 1700, loss is：0.4575
+[validation] accuracy 0.5236, loss 0.5851
+27
+epoch: 27, batch_id: 0, loss is：0.6945
+epoch: 27, batch_id: 100, loss is：0.7844
+epoch: 27, batch_id: 200, loss is：0.5186
+epoch: 27, batch_id: 300, loss is：0.4927
+epoch: 27, batch_id: 400, loss is：0.5253
+epoch: 27, batch_id: 500, loss is：0.5240
+epoch: 27, batch_id: 600, loss is：0.5663
+epoch: 27, batch_id: 700, loss is：0.7716
+epoch: 27, batch_id: 800, loss is：0.5252
+epoch: 27, batch_id: 900, loss is：0.4803
+epoch: 27, batch_id: 1000, loss is：0.6462
+epoch: 27, batch_id: 1100, loss is：0.7717
+epoch: 27, batch_id: 1200, loss is：0.7334
+epoch: 27, batch_id: 1300, loss is：0.3880
+epoch: 27, batch_id: 1400, loss is：0.6035
+epoch: 27, batch_id: 1500, loss is：0.7102
+epoch: 27, batch_id: 1600, loss is：0.7378
+epoch: 27, batch_id: 1700, loss is：0.4511
+[validation] accuracy 0.5251, loss 0.5828
+28
+epoch: 28, batch_id: 0, loss is：0.6917
+epoch: 28, batch_id: 100, loss is：0.7789
+epoch: 28, batch_id: 200, loss is：0.5111
+epoch: 28, batch_id: 300, loss is：0.4886
+epoch: 28, batch_id: 400, loss is：0.5203
+epoch: 28, batch_id: 500, loss is：0.5182
+epoch: 28, batch_id: 600, loss is：0.5638
+epoch: 28, batch_id: 700, loss is：0.7751
+epoch: 28, batch_id: 800, loss is：0.5286
+epoch: 28, batch_id: 900, loss is：0.4786
+epoch: 28, batch_id: 1000, loss is：0.6424
+epoch: 28, batch_id: 1100, loss is：0.7707
+epoch: 28, batch_id: 1200, loss is：0.7301
+epoch: 28, batch_id: 1300, loss is：0.3834
+epoch: 28, batch_id: 1400, loss is：0.6061
+epoch: 28, batch_id: 1500, loss is：0.7094
+epoch: 28, batch_id: 1600, loss is：0.7371
+epoch: 28, batch_id: 1700, loss is：0.4447
+[validation] accuracy 0.5260, loss 0.5804
+29
+epoch: 29, batch_id: 0, loss is：0.6885
+epoch: 29, batch_id: 100, loss is：0.7732
+epoch: 29, batch_id: 200, loss is：0.5033
+epoch: 29, batch_id: 300, loss is：0.4842
+epoch: 29, batch_id: 400, loss is：0.5151
+epoch: 29, batch_id: 500, loss is：0.5121
+epoch: 29, batch_id: 600, loss is：0.5613
+epoch: 29, batch_id: 700, loss is：0.7781
+epoch: 29, batch_id: 800, loss is：0.5327
+epoch: 29, batch_id: 900, loss is：0.4772
+epoch: 29, batch_id: 1000, loss is：0.6382
+epoch: 29, batch_id: 1100, loss is：0.7696
+epoch: 29, batch_id: 1200, loss is：0.7259
+epoch: 29, batch_id: 1300, loss is：0.3787
+epoch: 29, batch_id: 1400, loss is：0.6089
+epoch: 29, batch_id: 1500, loss is：0.7088
+epoch: 29, batch_id: 1600, loss is：0.7365
+epoch: 29, batch_id: 1700, loss is：0.4382
+[validation] accuracy 0.5272, loss 0.5779
+30
+epoch: 30, batch_id: 0, loss is：0.6848
+epoch: 30, batch_id: 100, loss is：0.7671
+epoch: 30, batch_id: 200, loss is：0.4954
+epoch: 30, batch_id: 300, loss is：0.4795
+epoch: 30, batch_id: 400, loss is：0.5099
+epoch: 30, batch_id: 500, loss is：0.5055
+epoch: 30, batch_id: 600, loss is：0.5588
+epoch: 30, batch_id: 700, loss is：0.7803
+epoch: 30, batch_id: 800, loss is：0.5374
+epoch: 30, batch_id: 900, loss is：0.4761
+epoch: 30, batch_id: 1000, loss is：0.6337
+epoch: 30, batch_id: 1100, loss is：0.7678
+epoch: 30, batch_id: 1200, loss is：0.7209
+epoch: 30, batch_id: 1300, loss is：0.3736
+epoch: 30, batch_id: 1400, loss is：0.6118
+epoch: 30, batch_id: 1500, loss is：0.7085
+epoch: 30, batch_id: 1600, loss is：0.7357
+epoch: 30, batch_id: 1700, loss is：0.4318
+[validation] accuracy 0.5284, loss 0.5752
+31
+epoch: 31, batch_id: 0, loss is：0.6805
+epoch: 31, batch_id: 100, loss is：0.7606
+epoch: 31, batch_id: 200, loss is：0.4875
+epoch: 31, batch_id: 300, loss is：0.4744
+epoch: 31, batch_id: 400, loss is：0.5045
+epoch: 31, batch_id: 500, loss is：0.4985
+epoch: 31, batch_id: 600, loss is：0.5560
+epoch: 31, batch_id: 700, loss is：0.7816
+epoch: 31, batch_id: 800, loss is：0.5427
+epoch: 31, batch_id: 900, loss is：0.4751
+epoch: 31, batch_id: 1000, loss is：0.6287
+epoch: 31, batch_id: 1100, loss is：0.7656
+epoch: 31, batch_id: 1200, loss is：0.7150
+epoch: 31, batch_id: 1300, loss is：0.3683
+epoch: 31, batch_id: 1400, loss is：0.6149
+epoch: 31, batch_id: 1500, loss is：0.7086
+epoch: 31, batch_id: 1600, loss is：0.7351
+epoch: 31, batch_id: 1700, loss is：0.4252
+[validation] accuracy 0.5300, loss 0.5724
+32
+epoch: 32, batch_id: 0, loss is：0.6756
+epoch: 32, batch_id: 100, loss is：0.7537
+epoch: 32, batch_id: 200, loss is：0.4798
+epoch: 32, batch_id: 300, loss is：0.4690
+epoch: 32, batch_id: 400, loss is：0.4990
+epoch: 32, batch_id: 500, loss is：0.4910
+epoch: 32, batch_id: 600, loss is：0.5530
+epoch: 32, batch_id: 700, loss is：0.7823
+epoch: 32, batch_id: 800, loss is：0.5488
+epoch: 32, batch_id: 900, loss is：0.4744
+epoch: 32, batch_id: 1000, loss is：0.6230
+epoch: 32, batch_id: 1100, loss is：0.7628
+epoch: 32, batch_id: 1200, loss is：0.7080
+epoch: 32, batch_id: 1300, loss is：0.3626
+epoch: 32, batch_id: 1400, loss is：0.6180
+epoch: 32, batch_id: 1500, loss is：0.7090
+epoch: 32, batch_id: 1600, loss is：0.7342
+epoch: 32, batch_id: 1700, loss is：0.4187
+[validation] accuracy 0.5309, loss 0.5695
+33
+epoch: 33, batch_id: 0, loss is：0.6698
+epoch: 33, batch_id: 100, loss is：0.7464
+epoch: 33, batch_id: 200, loss is：0.4724
+epoch: 33, batch_id: 300, loss is：0.4630
+epoch: 33, batch_id: 400, loss is：0.4936
+epoch: 33, batch_id: 500, loss is：0.4829
+epoch: 33, batch_id: 600, loss is：0.5500
+epoch: 33, batch_id: 700, loss is：0.7819
+epoch: 33, batch_id: 800, loss is：0.5556
+epoch: 33, batch_id: 900, loss is：0.4738
+epoch: 33, batch_id: 1000, loss is：0.6166
+epoch: 33, batch_id: 1100, loss is：0.7595
+epoch: 33, batch_id: 1200, loss is：0.7000
+epoch: 33, batch_id: 1300, loss is：0.3565
+epoch: 33, batch_id: 1400, loss is：0.6209
+epoch: 33, batch_id: 1500, loss is：0.7097
+epoch: 33, batch_id: 1600, loss is：0.7331
+epoch: 33, batch_id: 1700, loss is：0.4123
+[validation] accuracy 0.5320, loss 0.5664
+34
+epoch: 34, batch_id: 0, loss is：0.6630
+epoch: 34, batch_id: 100, loss is：0.7387
+epoch: 34, batch_id: 200, loss is：0.4655
+epoch: 34, batch_id: 300, loss is：0.4567
+epoch: 34, batch_id: 400, loss is：0.4884
+epoch: 34, batch_id: 500, loss is：0.4743
+epoch: 34, batch_id: 600, loss is：0.5469
+epoch: 34, batch_id: 700, loss is：0.7805
+epoch: 34, batch_id: 800, loss is：0.5630
+epoch: 34, batch_id: 900, loss is：0.4734
+epoch: 34, batch_id: 1000, loss is：0.6095
+epoch: 34, batch_id: 1100, loss is：0.7552
+epoch: 34, batch_id: 1200, loss is：0.6910
+epoch: 34, batch_id: 1300, loss is：0.3502
+epoch: 34, batch_id: 1400, loss is：0.6236
+epoch: 34, batch_id: 1500, loss is：0.7105
+epoch: 34, batch_id: 1600, loss is：0.7318
+epoch: 34, batch_id: 1700, loss is：0.4062
+[validation] accuracy 0.5339, loss 0.5631
+35
+epoch: 35, batch_id: 0, loss is：0.6550
+epoch: 35, batch_id: 100, loss is：0.7307
+epoch: 35, batch_id: 200, loss is：0.4592
+epoch: 35, batch_id: 300, loss is：0.4501
+epoch: 35, batch_id: 400, loss is：0.4834
+epoch: 35, batch_id: 500, loss is：0.4651
+epoch: 35, batch_id: 600, loss is：0.5437
+epoch: 35, batch_id: 700, loss is：0.7778
+epoch: 35, batch_id: 800, loss is：0.5710
+epoch: 35, batch_id: 900, loss is：0.4731
+epoch: 35, batch_id: 1000, loss is：0.6017
+epoch: 35, batch_id: 1100, loss is：0.7502
+epoch: 35, batch_id: 1200, loss is：0.6808
+epoch: 35, batch_id: 1300, loss is：0.3435
+epoch: 35, batch_id: 1400, loss is：0.6260
+epoch: 35, batch_id: 1500, loss is：0.7114
+epoch: 35, batch_id: 1600, loss is：0.7304
+epoch: 35, batch_id: 1700, loss is：0.4004
+[validation] accuracy 0.5359, loss 0.5597
+36
+epoch: 36, batch_id: 0, loss is：0.6459
+epoch: 36, batch_id: 100, loss is：0.7227
+epoch: 36, batch_id: 200, loss is：0.4535
+epoch: 36, batch_id: 300, loss is：0.4432
+epoch: 36, batch_id: 400, loss is：0.4789
+epoch: 36, batch_id: 500, loss is：0.4553
+epoch: 36, batch_id: 600, loss is：0.5406
+epoch: 36, batch_id: 700, loss is：0.7741
+epoch: 36, batch_id: 800, loss is：0.5801
+epoch: 36, batch_id: 900, loss is：0.4728
+epoch: 36, batch_id: 1000, loss is：0.5928
+epoch: 36, batch_id: 1100, loss is：0.7442
+epoch: 36, batch_id: 1200, loss is：0.6695
+epoch: 36, batch_id: 1300, loss is：0.3365
+epoch: 36, batch_id: 1400, loss is：0.6279
+epoch: 36, batch_id: 1500, loss is：0.7123
+epoch: 36, batch_id: 1600, loss is：0.7287
+epoch: 36, batch_id: 1700, loss is：0.3951
+[validation] accuracy 0.5365, loss 0.5561
+37
+epoch: 37, batch_id: 0, loss is：0.6355
+epoch: 37, batch_id: 100, loss is：0.7144
+epoch: 37, batch_id: 200, loss is：0.4485
+epoch: 37, batch_id: 300, loss is：0.4359
+epoch: 37, batch_id: 400, loss is：0.4747
+epoch: 37, batch_id: 500, loss is：0.4451
+epoch: 37, batch_id: 600, loss is：0.5373
+epoch: 37, batch_id: 700, loss is：0.7694
+epoch: 37, batch_id: 800, loss is：0.5901
+epoch: 37, batch_id: 900, loss is：0.4721
+epoch: 37, batch_id: 1000, loss is：0.5829
+epoch: 37, batch_id: 1100, loss is：0.7375
+epoch: 37, batch_id: 1200, loss is：0.6571
+epoch: 37, batch_id: 1300, loss is：0.3293
+epoch: 37, batch_id: 1400, loss is：0.6292
+epoch: 37, batch_id: 1500, loss is：0.7133
+epoch: 37, batch_id: 1600, loss is：0.7268
+epoch: 37, batch_id: 1700, loss is：0.3911
+[validation] accuracy 0.5380, loss 0.5522
+38
+epoch: 38, batch_id: 0, loss is：0.6239
+epoch: 38, batch_id: 100, loss is：0.7061
+epoch: 38, batch_id: 200, loss is：0.4442
+epoch: 38, batch_id: 300, loss is：0.4283
+epoch: 38, batch_id: 400, loss is：0.4710
+epoch: 38, batch_id: 500, loss is：0.4345
+epoch: 38, batch_id: 600, loss is：0.5340
+epoch: 38, batch_id: 700, loss is：0.7641
+epoch: 38, batch_id: 800, loss is：0.6018
+epoch: 38, batch_id: 900, loss is：0.4710
+epoch: 38, batch_id: 1000, loss is：0.5718
+epoch: 38, batch_id: 1100, loss is：0.7301
+epoch: 38, batch_id: 1200, loss is：0.6439
+epoch: 38, batch_id: 1300, loss is：0.3219
+epoch: 38, batch_id: 1400, loss is：0.6300
+epoch: 38, batch_id: 1500, loss is：0.7140
+epoch: 38, batch_id: 1600, loss is：0.7244
+epoch: 38, batch_id: 1700, loss is：0.3878
+[validation] accuracy 0.5399, loss 0.5482
+39
+epoch: 39, batch_id: 0, loss is：0.6113
+epoch: 39, batch_id: 100, loss is：0.6980
+epoch: 39, batch_id: 200, loss is：0.4406
+epoch: 39, batch_id: 300, loss is：0.4204
+epoch: 39, batch_id: 400, loss is：0.4680
+epoch: 39, batch_id: 500, loss is：0.4238
+epoch: 39, batch_id: 600, loss is：0.5304
+epoch: 39, batch_id: 700, loss is：0.7582
+epoch: 39, batch_id: 800, loss is：0.6151
+epoch: 39, batch_id: 900, loss is：0.4688
+epoch: 39, batch_id: 1000, loss is：0.5598
+epoch: 39, batch_id: 1100, loss is：0.7228
+epoch: 39, batch_id: 1200, loss is：0.6301
+epoch: 39, batch_id: 1300, loss is：0.3146
+epoch: 39, batch_id: 1400, loss is：0.6304
+epoch: 39, batch_id: 1500, loss is：0.7143
+epoch: 39, batch_id: 1600, loss is：0.7216
+epoch: 39, batch_id: 1700, loss is：0.3860
+[validation] accuracy 0.5417, loss 0.5440
+40
+epoch: 40, batch_id: 0, loss is：0.5981
+epoch: 40, batch_id: 100, loss is：0.6905
+epoch: 40, batch_id: 200, loss is：0.4376
+epoch: 40, batch_id: 300, loss is：0.4123
+epoch: 40, batch_id: 400, loss is：0.4654
+epoch: 40, batch_id: 500, loss is：0.4133
+epoch: 40, batch_id: 600, loss is：0.5267
+epoch: 40, batch_id: 700, loss is：0.7525
+epoch: 40, batch_id: 800, loss is：0.6299
+epoch: 40, batch_id: 900, loss is：0.4654
+epoch: 40, batch_id: 1000, loss is：0.5470
+epoch: 40, batch_id: 1100, loss is：0.7165
+epoch: 40, batch_id: 1200, loss is：0.6162
+epoch: 40, batch_id: 1300, loss is：0.3074
+epoch: 40, batch_id: 1400, loss is：0.6302
+epoch: 40, batch_id: 1500, loss is：0.7145
+epoch: 40, batch_id: 1600, loss is：0.7184
+epoch: 40, batch_id: 1700, loss is：0.3856
+[validation] accuracy 0.5440, loss 0.5397
+41
+epoch: 41, batch_id: 0, loss is：0.5845
+epoch: 41, batch_id: 100, loss is：0.6837
+epoch: 41, batch_id: 200, loss is：0.4355
+epoch: 41, batch_id: 300, loss is：0.4040
+epoch: 41, batch_id: 400, loss is：0.4635
+epoch: 41, batch_id: 500, loss is：0.4032
+epoch: 41, batch_id: 600, loss is：0.5228
+epoch: 41, batch_id: 700, loss is：0.7473
+epoch: 41, batch_id: 800, loss is：0.6460
+epoch: 41, batch_id: 900, loss is：0.4607
+epoch: 41, batch_id: 1000, loss is：0.5341
+epoch: 41, batch_id: 1100, loss is：0.7111
+epoch: 41, batch_id: 1200, loss is：0.6023
+epoch: 41, batch_id: 1300, loss is：0.3003
+epoch: 41, batch_id: 1400, loss is：0.6296
+epoch: 41, batch_id: 1500, loss is：0.7143
+epoch: 41, batch_id: 1600, loss is：0.7145
+epoch: 41, batch_id: 1700, loss is：0.3865
+[validation] accuracy 0.5455, loss 0.5354
+42
+epoch: 42, batch_id: 0, loss is：0.5709
+epoch: 42, batch_id: 100, loss is：0.6779
+epoch: 42, batch_id: 200, loss is：0.4339
+epoch: 42, batch_id: 300, loss is：0.3955
+epoch: 42, batch_id: 400, loss is：0.4619
+epoch: 42, batch_id: 500, loss is：0.3938
+epoch: 42, batch_id: 600, loss is：0.5190
+epoch: 42, batch_id: 700, loss is：0.7428
+epoch: 42, batch_id: 800, loss is：0.6638
+epoch: 42, batch_id: 900, loss is：0.4544
+epoch: 42, batch_id: 1000, loss is：0.5207
+epoch: 42, batch_id: 1100, loss is：0.7065
+epoch: 42, batch_id: 1200, loss is：0.5888
+epoch: 42, batch_id: 1300, loss is：0.2933
+epoch: 42, batch_id: 1400, loss is：0.6287
+epoch: 42, batch_id: 1500, loss is：0.7130
+epoch: 42, batch_id: 1600, loss is：0.7105
+epoch: 42, batch_id: 1700, loss is：0.3879
+[validation] accuracy 0.5477, loss 0.5310
+43
+epoch: 43, batch_id: 0, loss is：0.5577
+epoch: 43, batch_id: 100, loss is：0.6731
+epoch: 43, batch_id: 200, loss is：0.4326
+epoch: 43, batch_id: 300, loss is：0.3866
+epoch: 43, batch_id: 400, loss is：0.4606
+epoch: 43, batch_id: 500, loss is：0.3848
+epoch: 43, batch_id: 600, loss is：0.5149
+epoch: 43, batch_id: 700, loss is：0.7387
+epoch: 43, batch_id: 800, loss is：0.6827
+epoch: 43, batch_id: 900, loss is：0.4467
+epoch: 43, batch_id: 1000, loss is：0.5075
+epoch: 43, batch_id: 1100, loss is：0.7024
+epoch: 43, batch_id: 1200, loss is：0.5758
+epoch: 43, batch_id: 1300, loss is：0.2864
+epoch: 43, batch_id: 1400, loss is：0.6278
+epoch: 43, batch_id: 1500, loss is：0.7107
+epoch: 43, batch_id: 1600, loss is：0.7061
+epoch: 43, batch_id: 1700, loss is：0.3887
+[validation] accuracy 0.5500, loss 0.5265
+44
+epoch: 44, batch_id: 0, loss is：0.5453
+epoch: 44, batch_id: 100, loss is：0.6695
+epoch: 44, batch_id: 200, loss is：0.4315
+epoch: 44, batch_id: 300, loss is：0.3774
+epoch: 44, batch_id: 400, loss is：0.4598
+epoch: 44, batch_id: 500, loss is：0.3767
+epoch: 44, batch_id: 600, loss is：0.5110
+epoch: 44, batch_id: 700, loss is：0.7354
+epoch: 44, batch_id: 800, loss is：0.7025
+epoch: 44, batch_id: 900, loss is：0.4385
+epoch: 44, batch_id: 1000, loss is：0.4944
+epoch: 44, batch_id: 1100, loss is：0.6986
+epoch: 44, batch_id: 1200, loss is：0.5636
+epoch: 44, batch_id: 1300, loss is：0.2797
+epoch: 44, batch_id: 1400, loss is：0.6263
+epoch: 44, batch_id: 1500, loss is：0.7072
+epoch: 44, batch_id: 1600, loss is：0.7012
+epoch: 44, batch_id: 1700, loss is：0.3886
+[validation] accuracy 0.5528, loss 0.5220
+45
+epoch: 45, batch_id: 0, loss is：0.5341
+epoch: 45, batch_id: 100, loss is：0.6667
+epoch: 45, batch_id: 200, loss is：0.4306
+epoch: 45, batch_id: 300, loss is：0.3677
+epoch: 45, batch_id: 400, loss is：0.4595
+epoch: 45, batch_id: 500, loss is：0.3694
+epoch: 45, batch_id: 600, loss is：0.5071
+epoch: 45, batch_id: 700, loss is：0.7331
+epoch: 45, batch_id: 800, loss is：0.7227
+epoch: 45, batch_id: 900, loss is：0.4304
+epoch: 45, batch_id: 1000, loss is：0.4818
+epoch: 45, batch_id: 1100, loss is：0.6951
+epoch: 45, batch_id: 1200, loss is：0.5519
+epoch: 45, batch_id: 1300, loss is：0.2729
+epoch: 45, batch_id: 1400, loss is：0.6244
+epoch: 45, batch_id: 1500, loss is：0.7024
+epoch: 45, batch_id: 1600, loss is：0.6961
+epoch: 45, batch_id: 1700, loss is：0.3875
+[validation] accuracy 0.5557, loss 0.5175
+46
+epoch: 46, batch_id: 0, loss is：0.5240
+epoch: 46, batch_id: 100, loss is：0.6650
+epoch: 46, batch_id: 200, loss is：0.4298
+epoch: 46, batch_id: 300, loss is：0.3578
+epoch: 46, batch_id: 400, loss is：0.4594
+epoch: 46, batch_id: 500, loss is：0.3632
+epoch: 46, batch_id: 600, loss is：0.5036
+epoch: 46, batch_id: 700, loss is：0.7314
+epoch: 46, batch_id: 800, loss is：0.7433
+epoch: 46, batch_id: 900, loss is：0.4226
+epoch: 46, batch_id: 1000, loss is：0.4698
+epoch: 46, batch_id: 1100, loss is：0.6918
+epoch: 46, batch_id: 1200, loss is：0.5406
+epoch: 46, batch_id: 1300, loss is：0.2659
+epoch: 46, batch_id: 1400, loss is：0.6222
+epoch: 46, batch_id: 1500, loss is：0.6960
+epoch: 46, batch_id: 1600, loss is：0.6909
+epoch: 46, batch_id: 1700, loss is：0.3850
+[validation] accuracy 0.5575, loss 0.5130
+47
+epoch: 47, batch_id: 0, loss is：0.5155
+epoch: 47, batch_id: 100, loss is：0.6645
+epoch: 47, batch_id: 200, loss is：0.4289
+epoch: 47, batch_id: 300, loss is：0.3480
+epoch: 47, batch_id: 400, loss is：0.4595
+epoch: 47, batch_id: 500, loss is：0.3585
+epoch: 47, batch_id: 600, loss is：0.5005
+epoch: 47, batch_id: 700, loss is：0.7303
+epoch: 47, batch_id: 800, loss is：0.7636
+epoch: 47, batch_id: 900, loss is：0.4155
+epoch: 47, batch_id: 1000, loss is：0.4584
+epoch: 47, batch_id: 1100, loss is：0.6890
+epoch: 47, batch_id: 1200, loss is：0.5294
+epoch: 47, batch_id: 1300, loss is：0.2586
+epoch: 47, batch_id: 1400, loss is：0.6202
+epoch: 47, batch_id: 1500, loss is：0.6881
+epoch: 47, batch_id: 1600, loss is：0.6857
+epoch: 47, batch_id: 1700, loss is：0.3817
+[validation] accuracy 0.5612, loss 0.5085
+48
+epoch: 48, batch_id: 0, loss is：0.5084
+epoch: 48, batch_id: 100, loss is：0.6649
+epoch: 48, batch_id: 200, loss is：0.4288
+epoch: 48, batch_id: 300, loss is：0.3385
+epoch: 48, batch_id: 400, loss is：0.4596
+epoch: 48, batch_id: 500, loss is：0.3550
+epoch: 48, batch_id: 600, loss is：0.4976
+epoch: 48, batch_id: 700, loss is：0.7297
+epoch: 48, batch_id: 800, loss is：0.7836
+epoch: 48, batch_id: 900, loss is：0.4091
+epoch: 48, batch_id: 1000, loss is：0.4481
+epoch: 48, batch_id: 1100, loss is：0.6863
+epoch: 48, batch_id: 1200, loss is：0.5182
+epoch: 48, batch_id: 1300, loss is：0.2510
+epoch: 48, batch_id: 1400, loss is：0.6179
+epoch: 48, batch_id: 1500, loss is：0.6789
+epoch: 48, batch_id: 1600, loss is：0.6806
+epoch: 48, batch_id: 1700, loss is：0.3775
+[validation] accuracy 0.5651, loss 0.5041
+49
+epoch: 49, batch_id: 0, loss is：0.5026
+epoch: 49, batch_id: 100, loss is：0.6663
+epoch: 49, batch_id: 200, loss is：0.4290
+epoch: 49, batch_id: 300, loss is：0.3296
+epoch: 49, batch_id: 400, loss is：0.4593
+epoch: 49, batch_id: 500, loss is：0.3526
+epoch: 49, batch_id: 600, loss is：0.4951
+epoch: 49, batch_id: 700, loss is：0.7288
+epoch: 49, batch_id: 800, loss is：0.8027
+epoch: 49, batch_id: 900, loss is：0.4030
+epoch: 49, batch_id: 1000, loss is：0.4392
+epoch: 49, batch_id: 1100, loss is：0.6841
+epoch: 49, batch_id: 1200, loss is：0.5070
+epoch: 49, batch_id: 1300, loss is：0.2430
+epoch: 49, batch_id: 1400, loss is：0.6151
+epoch: 49, batch_id: 1500, loss is：0.6689
+epoch: 49, batch_id: 1600, loss is：0.6754
+epoch: 49, batch_id: 1700, loss is：0.3730
+[validation] accuracy 0.5675, loss 0.4998
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")

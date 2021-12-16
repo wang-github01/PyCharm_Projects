@@ -1,0 +1,63 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 111, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 37, in train
+    logits = model(img)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 902, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "D:\Users\Admin\PycharmProjects\PyCharm_Projects\Deep_learning\cat_dog\LeNet.py", line 52, in forward
+    x = self._batch_norm_0(x)  # 归一层
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\layers.py", line 902, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py", line 653, in forward
+    use_global_stats=self._use_global_stats)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\nn\functional\norm.py", line 190, in batch_norm
+    *attrs)
+ValueError: (InvalidArgument) ShapeError: the shape of scale must equal to [50]But received: the shape of scale is [20]
+  [Hint: Expected scale_dim[0] == C, but received scale_dim[0]:20 != C:50.] (at C:\home\workspace\Paddle_release\paddle\fluid\operators\batch_norm_op.cc:118)
+  [operator < batch_norm > error]
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+epoch: 0, batch_id: 0, loss is：0.6811
+[validation] accuracy 0.6250, loss 0.6633
+1
+epoch: 1, batch_id: 0, loss is：0.6718
+[validation] accuracy 0.6250, loss 0.6552
+2
+epoch: 2, batch_id: 0, loss is：0.6627
+[validation] accuracy 0.6250, loss 0.6436
+3
+epoch: 3, batch_id: 0, loss is：0.6560
+[validation] accuracy 0.6250, loss 0.6295
+4
+epoch: 4, batch_id: 0, loss is：0.6478
+[validation] accuracy 0.6250, loss 0.6172
+5
+epoch: 5, batch_id: 0, loss is：0.6388
+[validation] accuracy 0.6250, loss 0.6069
+6
+epoch: 6, batch_id: 0, loss is：0.6299
+[validation] accuracy 0.6250, loss 0.5979
+7
+epoch: 7, batch_id: 0, loss is：0.6214
+[validation] accuracy 0.6250, loss 0.5893
+8
+epoch: 8, batch_id: 0, loss is：0.6132
+[validation] accuracy 0.6250, loss 0.5810
+9
+epoch: 9, batch_id: 0, loss is：0.6051
+[validation] accuracy 0.6250, loss 0.5728
+D:\Users\Admin\Python37\lib\site-packages\paddle\nn\layer\norm.py:641: UserWarning: When training, we now always track global mean and variance.
+  "When training, we now always track global mean and variance.")

@@ -1,0 +1,22 @@
+开始训练...
+训练集数据处理。。。。
+=============
+验证集数据处理。。。。。
+=============
+0
+Traceback (most recent call last):
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 116, in <module>
+    train(model, EPOCH_NLM, opt)
+  File "D:/Users/Admin/PycharmProjects/PyCharm_Projects/Deep_learning/cat_dog/model_training02.py", line 44, in train
+    loss = fluid.layers.sigmoid_cross_entropy_with_logits(logits, label)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\layers\loss.py", line 1461, in sigmoid_cross_entropy_with_logits
+    outputs={"Out": out})
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\layer_helper.py", line 43, in append_op
+    return self.main_program.current_block().append_op(*args, **kwargs)
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\framework.py", line 2950, in append_op
+    kwargs.get("stop_gradient", False))
+  File "D:\Users\Admin\Python37\lib\site-packages\paddle\fluid\dygraph\tracer.py", line 45, in trace_op
+    not stop_gradient)
+ValueError: (InvalidArgument) Input(X) and Input(Label) shall have the same shape except the last dimension. But received: the shape of Input(X) is [10, 64], the shape of Input(Label) is [10, 1].
+  [Hint: Expected framework::slice_ddim(x_dims, 0, rank) == framework::slice_ddim(labels_dims, 0, rank), but received framework::slice_ddim(x_dims, 0, rank):10, 64 != framework::slice_ddim(labels_dims, 0, rank):10, 1.] (at C:/home/workspace/Paddle_release/paddle/fluid/operators/sigmoid_cross_entropy_with_logits_op.cc:63)
+  [operator < sigmoid_cross_entropy_with_logits > error]
