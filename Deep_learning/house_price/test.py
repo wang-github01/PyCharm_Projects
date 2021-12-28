@@ -1,14 +1,21 @@
 import numpy as np
-a = np.array(
-    [
-        [1,2,3],
-        [2,3,1],
-        [6,8,5],
-        [4,5,6]
-    ]
-)
-x = a[:,:-1]
-print(x[1])
-print(a.shape)
-print(np.random.randn(2,2))
-# print(a.min(axis=0))
+import model
+import data
+import matplotlib.pyplot as plt
+
+# 获取数据
+train_data, test_data = data.load_data()
+x = train_data[:, :-1]
+y = train_data[:, -1:]
+# 创建网络
+net = model.Network(13)
+num_iterations=2000
+# 启动训练
+losses = net.train(x, y, iterations=num_iterations, eta=0.01)
+
+# 画出损失函数的变化趋势
+plot_x = np.arange(num_iterations)
+plot_y = np.array(losses)
+plt.plot(plot_x, plot_y)
+plt.show()
+

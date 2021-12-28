@@ -2,6 +2,7 @@ import numpy as np
 import json
 
 
+#  数据集处理
 def load_data():
     # 读入训练数据
     datafile = 'data/housing.data'
@@ -33,8 +34,8 @@ def load_data():
     maximums = data_slice.max(axis=0)
     minimums = data_slice.min(axis=0)
     avgs = data_slice.sum(axis=0) / data_slice.shape[0]
-    print(data[:,1])
-    print("--------------")
+    # print(data[:,1])
+    # print("--------------")
     # 对数据进行归一化处理
     for i in range(feature_num):
 
