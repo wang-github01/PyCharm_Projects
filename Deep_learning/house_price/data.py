@@ -8,23 +8,23 @@ def load_data():
     datafile = 'data/housing.data'
     # np.fromfile 用于读取函数 sep项目直接的分隔符
     data = np.fromfile(datafile, sep=' ')
-    # print(data)
     # 每条数据包括14项，其中前面13项是影响因素，第14项是相应的房屋价格中位数
     feature_names = ['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE', 'DIS',
                      'RAD', 'TAX', 'PTRATIO', 'B', 'LSTAT', 'MEDV']
+
     feature_num = len(feature_names)
 
     # numpy函数中 shape[0] 读取矩阵中的行数
-    # numpy函数中 shape[0] 读取矩阵中的列数
+    # numpy函数中 shape[1] 读取矩阵中的列数
     # numpy函数中  reshape 是在不改变数据内容的情况下，改变一个数组的格式
-    # 将原始数据j进行reshape，变成[N，14]这样的形状
+    # 将原始数据进行reshape，变成[N，14]这样的形状
     data = data.reshape([data.shape[0] // feature_num, feature_num])
-    print(data.shape)
+    #print(data.shape)
     # 将原始数据拆分成训练集和测试集
     # 这里使用80%的数据作为训练集、20%的数据作为测试基
     # 测试集和训练集必须没有交集（随机分配）
     ratio = 0.8
-    offset = int(data.shape[0]*ratio)
+    offset = int(data.shape[0] * ratio)
     # data[:offset]相当于data[0:offset]取数据的前80%
     data_slice = data[:offset]
 
@@ -36,10 +36,10 @@ def load_data():
     avgs = data_slice.sum(axis=0) / data_slice.shape[0]
     # print(data[:,1])
     # print("--------------")
-    # 对数据进行归一化处理
-    for i in range(feature_num):
 
-        # 对每一列进行归一化处理
+    # 对数据进行归一化处理(做归一化处理的目的是 把数变为（0，1）之间的小数)
+    for i in range(feature_num):
+        # 对每一列进行归一化处理(归一化公式：(x - avgs)/(max - min))
         # data[2,2] 输出的是第三行，第三列的数据 。 data[:,2] 输出的是第三列的数据 。 data[2,:] 输出的是第三行的数据
         data[:,i] = (data[:,i] - avgs[i]) / (maximums[i] - minimums[i])
 
